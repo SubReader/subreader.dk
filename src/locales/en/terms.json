@@ -1,0 +1,96 @@
+{
+  "seoTitle": "Terms and Conditions",
+  "seoDescription": "Here you can read more about the Terms and Conditions regarding the SubReader website and the app.",
+  "title": "Terms and Conditions",
+  "1": {
+    "heading": "1. INTRODUCTION",
+    "p1": "This app is published by SubReader ApS, {{CVR}} with location at {{address}} (“The Company”).",
+    "p2": "By using the app you agree to be bound by the following terms and conditions. If you have any questions regarding the proper use of the App, please contact us as set out in Section 5 of these Terms. If you do not agree to the use of these terms and conditions, please stop using the App immediately.",
+    "p3": "SubReader reserves the right to change the Terms of Use of the App at any time with immediate effect."
+  },
+  "2": {
+    "heading": "2. GENERAL RULES FOR USING THE APP",
+    "p1": "The app may not be used for commercial use without the written permission of the Company. The app may not be used illegally, or in any way encourage illegal activity or illegal purposes. When using the App, all applicable Danish legislation and internationally applicable laws must be complied with, including laws applicable in your home country (collectively referred to as “Applicable Laws”).",
+    "p2": "In addition, you agree not to:",
+    "list": [
+      "Attempting to gain unauthorized access to the App, networks, servers or computer systems associated with the App",
+      "Attempt to modify, adapt, translate or reverse engineer the App and related software systems associated with SubReader or integrated platforms."
+    ],
+    "p3": "You also agree to fully and on demand reimburse the Company and associated Media Services for any losses, damages, costs and expenses, these may suffer as a direct or indirect consequence of your use of the App in violation of these Terms or Applicable Laws."
+  },
+  "3": {
+    "heading": "3. MATERIAL AND CONTENT",
+    "p1": "The copyright in the content of the App, including images, sound, source code, graphics and setup thereof, as well as other material (“Material”) is owned by the Company. All rights reserved. The material may be used for your own personal use or to demonstrate the functionality of the App, but may not be copied, redistributed, edited, modified, translated or commercially exploited without the express permission of the Company.",
+    "p2": "As a user of the app, you are responsible for agreeing to and complying with the terms and conditions of use of the media service for the delivery of multimedia content (“The Media Service”) for which you use the App. The company disclaims responsibility for your possible violations of the Media Service's Terms and Conditions."
+  },
+  "4": {
+    "heading": "4. PERSONAL DATA AND MARKETING",
+    "p1": "By creating a user with associated information: name, e-mail and date of birth (including the term “User Data”), you declare your acceptance of the following uses of your User Data as well as information about your use of the App, consisting of times of use and information of Media Service (“Usage Data”):",
+    "list": [
+      "The company and associated Media Services may send newsletters with updates in connection with. using the App to the email address in your User Data.",
+      "The company and associated Media Services may use User Data associated with the user for marketing campaigns, system improvements and optimization of the user experience.",
+      "The company may use your User Data in connection with marketing campaigns for third parties in connection with the spread of support on other Media Services."
+    ]
+  },
+  "4-1": {
+    "heading": "4.1. What personal information do we collect",
+    "p1": "We collect information to give you the ability to read subtitles. This means that we collect both personal information and “other” information.",
+    "list": [
+      "Information you provide to us: When you create an account with us, we register account details; For example Name, Email Address, Password, Country, Location. We may also register your location.",
+      "Information we automatically collect when you use SubReader: When you use SubReader, we register a number of information automatically, including personal information and information about how you use the service. This information is necessary for us to ensure the best communication between you as a user and us as a company.",
+      "When you participate in surveys, contests or giveaways, we collect contact information, demographics and eligibility information. We may sponsor contests, giveaways or other offers where we may require you to provide us with your personal data such as; name, email address, telephone number and age, as well as other information that may be relevant to your participation.",
+      "When you “connect” with us on social media, we may collect your account or profile information. You can choose to log in, or sign up for the service with Facebook or other social networking services. When you link your social media account, we collect personal data that you have given access to on your social profile. For example, when you log in with your Facebook login information, you give permission for us to collect personal data from your Facebook profile, which is subject to Facebook's terms and conditions, such as your email address. If you do not wish to provide us with this information, you will need to change your settings on your social network profile.",
+      "When you interact with our services, we collect information about your usage behavior on the platform. We automatically collect log data and device information. We use cookies and other similar technologies. SubReader collects information related to your payments through the SubReader platform. This information is necessary to maintain the contract between you and SubReader."
+    ]
+  },
+  "4-2": {
+    "heading": "4.2. How we use your personal information",
+    "p1": "We use your data to manage our business, market and improve our platform, develop new services and give you a more personal experience when you interact with us. We also use your information to communicate with you.",
+    "p2": "We use your information for the following:",
+    "list": [
+      "Manage our business and run our services. We use your personal data to create and manage your personal account on SubReader, as well as manage your orders.",
+      "Personalize your experience on our services, better understand our users and gain insight into usage. We use your personal information to make analyzes that can improve the functionality of the service. We may use your interactions with the platform, your purchase history and preferences, as well as similar information that you send to the SubReader platform.",
+      "Communicate with you and answer your requests. When you register with us, you give permission for us to communicate with you via e-mail or push notifications. For this we may use your personal information to be able to communicate with you about SubReader products or services that you have purchased or to inform you about other products, campaigns or services that we think you may be interested in. You can always control it way we communicate with you in your account preferences on the website. We also use your personal information to provide technical support / assistance on the platform. This includes access to your SubReader account, to address technical queries. We may send you emails, even if you have opted out, regarding updates to our Terms and Conditions, as well as terms of trade.",
+      "Personalize our advertising and marketing. We use your personal information and other information to send advertising / marketing campaigns that give you information about the products we think are most relevant to you. Given that you have given us permission to send you messages for marketing and advertising, or other information, we use your preferences and information (including on social media) to send messages with content that we think is best for you . You always have the opportunity to unsubscribe from all types of marketing material from SubReader."
+    ]
+  },
+  "4-3": {
+    "heading": "4.3. Where is your personal data stored",
+    "p1": "SubReader uses a number of different third-party service providers to help us offer services related to the SubReader platform. These service providers may be located within or outside the European Economic Area (“EEA”). Any transfer of your personal data will be done in accordance with the relevant laws.",
+    "p2": "These service providers will only have limited access to your data, in order to perform tasks on our behalf and are contracted and bound to protect and use the data only for the agreed purpose, and which complies with these conditions. We have previously taken the necessary steps to share your data with third parties to ensure an appropriate level of data protection. This could be based on the EU model clauses. (a series of clauses issued by the European Commission)."
+  },
+  "4-4": {
+    "heading": "4.4. How long is your personal data stored",
+    "p1": "SubReader stores your data as long as you have an account with us, or need to use our services. We also retain and use your data as necessary to comply with our legal guidelines and resolve disputes."
+  },
+  "4-5": {
+    "heading": "4.5. Who is responsible for your personal data",
+    "p1": "SubReader ApS is the data processor for the data you send to us, and is responsible for the data."
+  },
+  "4-6": {
+    "heading": "4.6. Who has access to your personal data",
+    "p1": "Your data may be shared in SubReader ApS, and its subsidiaries / affiliates, which are related to normal ownership or control. We never send, sell or exchange your data for marketing initiatives to third parties outside the SubReader ApS group. Data transmitted to third parties is used exclusively to provide the above services, for example media services and agencies for distribution of newsletters, credit references or for the purpose of making a credit assessment, identity check and debt collection."
+  },
+  "4-7": {
+    "heading": "4.7. How do we protect your data",
+    "p1": "We have used technical and organizational processes to protect your data from being lost, tampered with or accessed unauthorized. We continue to incorporate initiatives that follow technological developments. To make payment with us as easy as possible, we use encrypted forms. This means that your information is sent through a secure connection and that external partners cannot access your personal data. When paying by card, we work with payment acquirers who help us check directly with your bank that your card has been validated for purchase. Our payment redeemers process your card information in accordance with the international security standard PCI DSS, which has been developed by the payment card companies VISA, MasterCard, Diners, American Express and JCB. This means that your payment card is treated with a very high level of security. When you pay by card, we reserve the right to perform an identity check."
+  },
+  "4-8": {
+    "heading": "4.8. What are your rights and opportunities for objection",
+    "p1": "You have the right to be informed of the personal data we process about you. You can also object to the use of information at any time. You can also revoke your consent for information about you to be processed. If the information processed about you is incorrect, you have the right to have it corrected or deleted. Inquiries about this can be made to:",
+    "p2": "If you want to complain about our processing of your personal data, you also have the opportunity to get in touch",
+    "email": "kontakt@subreader.dk",
+    "link": {
+      "content": "The Danish Data Protection Agency",
+      "href": "https://www.datatilsynet.dk/english"
+    }
+  },
+  "5": {
+    "heading": "5. INQUIRIES TO THE COMPANY",
+    "p1": "All inquiries and notifications to the Company regarding the App must be made using the following contact information:",
+    "email": "E-mail:",
+    "tlf": "Phone: ",
+    "aps": "SubReader ApS",
+    "att": "Att. Support"
+  }
+}

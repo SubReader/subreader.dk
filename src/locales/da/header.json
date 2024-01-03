@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "index": "Forside",
+    "faq": "Spørgsmål og svar",
+    "bio": "Biografer",
+    "schools": "For skoler",
+    "get-started": "Kom i gang",
+    "account": "Min konto",
+    "blog": "Blog",
+    "log-out": "Log ud"
+  },
+  "trial-btn": "Prøv 14 dage gratis"
+}

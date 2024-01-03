@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "titleTemplate": "Read out subtitles",
+    "description": "Get read out subtitles on foreign films with SubReader across your streaming services today!"
+  },
+  "address": {
+    "street": "Sankt Gertruds Stræde 5,5",
+    "city": "1120 København K"
+  },
+  "phone": { "content": "+45 42 90 11 17", "value": "+4542901117" },
+  "cvr": "CVR: 37258024",
+  "email": "contact@subreader.io",
+  "socials": {
+    "youtube": "https://www.youtube.com/channel/UCmIdYmdNJY5zFSLWFtSHwxQ",
+    "instagram": "https://www.instagram.com/subreader_app/",
+    "facebook": "https://www.facebook.com/subreaderdk"
+  },
+  "downloadButtons": {
+    "google": {
+      "aria": "Download SubReader App on Google Play",
+      "href": "https://play.google.com/store/apps/details?id=app.subreader",
+      "src": "google-play-en.png"
+    },
+    "apple": {
+      "aria": "Download SubReader App on App Store",
+      "href": "https://apps.apple.com/app/subreader/id1105856178?l=da",
+      "src": "apple-en.svg"
+    }
+  }
+}

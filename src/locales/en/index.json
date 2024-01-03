@@ -1,0 +1,128 @@
+{
+  "seoTitle": "SubReader",
+  "hero": {
+    "title": "Subtitles read aloud on foreign language films",
+    "movie-btn": "Watch the movie about SubReader",
+    "button": "Learn more about SubReader",
+    "alt": "Read out subtitles hero image"
+  },
+  "worksWith": {
+    "trial-btn": "Try 14 days for free",
+    "title": "Use SubReader with the most popular streaming services",
+    "services": [
+      {
+        "logo": "netflix",
+        "alt": "Works with Netflix"
+      },
+      {
+        "logo": "viaplay",
+        "alt": "Works with Viaplay"
+      },
+      {
+        "logo": "disney",
+        "alt": "Works with Disney Plus"
+      }
+    ]
+  },
+  "howAppWorks": {
+    "title": "How to get started",
+    "to": "/subscription/monthly",
+    "info": {
+      "title": "Download SubReader",
+      "content": "The SubReader app works on both iPhone and Android phones, so anyone can use it to get subtitles read aloud on films and series.",
+      "button": "Try 14 days for free",
+      "binding": "No binding",
+      "alt": "Download SubReader App"
+    },
+    "info2": {
+      "title": "Search for your movies",
+      "content": "The SubReader search-function lets you search for movies and series across your streaming services, enabling you to watch movies with subtitles read aloud on thousands of movies.",
+      "button": "Try 14 days for free",
+      "binding": "No binding",
+      "alt": "Search for your movies with the SubReader app"
+    },
+    "info3": {
+      "title": "Automatic synchronisation",
+      "content": "With SubReader Plus you always have access to the best technology within speech-synthesis. With a variety of voices available, you can always find the voice that suits you the best.",
+      "button": "Try 14 days for free",
+      "binding": "No binding",
+      "alt": "Let the app sync your movie"
+    }
+  },
+  "movie": {
+    "title": "Choose your favourite voice and enjoy your movie",
+    "content": "Choose from the many good voices and find the one you like best. Sit back, turn your feet up and enjoy a whole new universe of selected foreign films with subtitles read aloud.",
+    "button": "Get started with SubReader "
+  },
+  "whySubReader": {
+    "testimonial": {
+      "title": "Why use SubReader?",
+      "content": "SubReader is a tool for dyslexics, visually impaired and others with reading difficulties. With SubReader you can enjoy foreign movies and series on an equal footing with friends, family and everyone else. SubReader discreetly reads the subtitles aloud, without disturbing others.",
+      "review": "Today I have seen an English film for the first time in my whole life. It was an absolutely amazing experience - SubReader has opened up a whole new world for me.",
+      "author": "Camilla Møller",
+      "authorSubtitle": "Dyslexic"
+    },
+    "feature": {
+      "title": "Watch on all devices",
+      "content": "Whether you’re watching your movie on the TV, your computer or tablet, SubReader’s app reads the subtitles aloud simultaneously via your phone."
+    },
+    "feature2": {
+      "title": "Search all your streaming services",
+      "content": "Enter the title of your movie or series, and the app searches across thousands of movies and series on Netflix, Disney+ and Viaplay."
+    },
+    "feature3": {
+      "title": "Always at hand",
+      "content": "With SubReader you can get read aloud the subtitles of your favorite movies and series. Whether you enjoy yourself at home in the living room or on holiday in the cottage."
+    }
+  },
+  "subscriptions": {
+    "title": {
+      "content": "Access a world of entertainment with ",
+      "span": "SubReader Plus"
+    },
+    "features": [
+      "Use in the Cinema",
+      "Use with Netflix",
+      "Use with Disney+",
+      "Use with Viaplay"
+    ],
+    "binding": "No binding",
+    "yearly": {
+      "title": "Yearly",
+      "button": "Try 14 days for free",
+      "banner": "Save {{percent}}",
+      "year": "year"
+    },
+    "monthly": {
+      "title": "Monthly",
+      "button": "Try 14 days for free",
+      "month": "Month"
+    }
+  },
+  "testimonials": {
+    "title": "This is what users say about SubReader",
+    "1": {
+      "content": "Today I have seen an English film for the first time in my whole life. It was an absolutely amazing experience - SubReader has opened up a whole new world for me.",
+      "author": "Camilla Møller",
+      "alt": "Picture of Camilla who is dyslexic",
+      "authorSubtitle": "Dyslexic"
+    },
+    "2": {
+      "content": "I have two dyslexic children. One started crying with joy, because now there are many movies he wants to see.",
+      "author": "Lone Munch",
+      "alt": "Picture of Lone who is the mother of dyslexics",
+      "authorSubtitle": "Mother of dyslexic"
+    },
+    "3": {
+      "content": "Now I can get an earphone in one ear, and listen to the movie with the other, and be on the same conditions as everyone else.",
+      "author": "Christian Bock",
+      "alt": "Picture of Christian Rock who is a dyslexic mentor",
+      "authorSubtitle": "Dyslexic Mentor"
+    }
+  },
+  "download": {
+    "title": "Get subtitles read aloud with SubReader today",
+    "content": "Download the SubReader app on your phone, and you're ready to read the subtitles on all your streaming services.",
+    "alt": "With SubReader you can get subtitles read aloud from all your streaming services "
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "A new world of entertainment",
+  "content": "SubReader is a dyslexic tool for children and adults to read subtitles out loud. With SubReader, a new world of entertainment opens up. Enjoy foreign movies and series with friends and family on an equal footing with everyone else. SubReader helps you if you are dyslexic or for other reasons can not read subtitles.",
+  "quickLinks": [
+    {
+      "title": "Quick Links",
+      "links": [
+        {
+          "content": "Terms and Conditions",
+          "href": "/terms"
+        },
+        {
+          "content": "Privacy Policy",
+          "href": "/privacy"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Een nieuwe wereld van entertainment",
+  "content": "SubReader is een hulpmiddel voor kinderen en volwassenen met dyslexie om ondertiteling voor te lezen.  Met SubReader gaat er een nieuwe wereld van entertainment open. Geniet samen met vrienden en familie van buitenlandse films en series. SubReader helpt je als je dyslectisch bent of om andere redenen geen ondertitels kan lezen.",
+  "quickLinks": [
+    {
+      "title": "Snelle links",
+      "links": [
+        {
+          "content": "Algemene voorwaarden",
+          "href": "/terms"
+        },
+        {
+          "content": "Privacybeleid",
+          "href": "/privacy"
+        }
+      ]
+    }
+  ]
+}

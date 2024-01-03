@@ -1,0 +1,37 @@
+{
+  "seoTitle": "Log in",
+  "seoDescription": "Hier kan je een gebruiker aanmaken / inloggen met je SubReader account en beginnen met het gebruiken van gesproken ondertiteling via je telefoon.",
+  "continue": {
+    "divider": "of",
+    "sms": "Ga door met SMS",
+    "email": "Ga door met e-mail",
+    "facebook": "Ga door met Facebook",
+    "google": "Ga door met Google"
+  },
+  "terms": {
+    "content": "Door verder te gaan, accepteer je onze",
+    "span": "algemene voorwaarden",
+    "href": "https://subreader.nl/terms/"
+  },
+  "phone": {
+    "seoTitle": "Schrijf Telefoon",
+    "title": "Voer je telefoonnummer in",
+    "button": "Doorgaan",
+    "verificationReminder": "Voer de code in die je via SMS ontvangen hebt"
+  },
+  "email": {
+    "seoTitle": "Schrijf Email",
+    "placeholder": "jouw@email.nl",
+    "title": "Voer je e-mailadres in",
+    "button": "Doorgaan",
+    "verificationReminder": "Voer de code in die je via e-mail ontvangen hebt"
+  },
+  "verification": {
+    "button": "Bevestigen"
+  },
+  "name": {
+    "seoTitle": "Schrijf naam",
+    "title": "Voer je naam in",
+    "button": "Maak account"
+  }
+}

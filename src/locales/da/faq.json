@@ -1,0 +1,169 @@
+{
+  "seoTitle": "Spørgsmål og svar",
+  "seoDescription": "Her kan du finde svar på alle dine spørgsmål omkring SubReader hjemmesiden og appen, og komme på rette vej.",
+  "general": {
+    "heading": "Generelle spørgsmål",
+    "q1": {
+      "title": "Hvem kan bruge SubReader?",
+      "p1": "SubReader kan bruges af alle personer som har svært ved at læse undertekster. SubReaders oplæste undertekster gør det mere afslappet at se film og serier, så du kan følge med på samme vilkår som de andre, uanset om du er ordblind, har læsevanskeligheder, synshandicap eller ikke har lært at læse underteksterne endnu."
+    },
+    "q2": {
+      "title": "Hvordan downloader jeg SubReader?",
+      "p": "Du kan hente SubReader på <0>{{apple}}</0> til iPhone og på <1>{{google}}</1> til Android telefoner"
+    },
+    "q3": {
+      "title": "Hvilken enhed skal jeg downloade SubReader på?",
+      "p1": "Du skal downloade SubReader på din telefon eller iPad som kommer til at læse underteksterne højt for dig. Du behøver IKKE downloade SubReader på den enhed du ser film eller serier på, f.eks din Smart TV eller computer."
+    },
+    "q4": {
+      "title": "Hvordan opretter jeg en bruger?",
+      "p1": "Efter du har hentet og åbnet app'en skal du vælge en loginmetode til din bruger. Du kan vælge at fortsætte med SMS, Email, Apple, Facebook, Google eller Skole Login. Afhængig af hvilken loginmetode du vælger vil du blive bedt om at bekræfte dine oplysninger gennem en verifikationskode. Nu vil du have adgang til SubReader appen. Her kan du søge efter film og serier og købe et SubReader Plus abonnement og få fri adgang til alle undertekster og stemmer i appen."
+    },
+    "q5": {
+      "title": "Hvad er forskellen på en bruger og et SubReader Plus abonnement?",
+      "p1": "At oprette en bruger betyder blot at du laver en brugerprofil i app’en. Dette koster ikke penge og du behøver ikke at opgive betalingsinformation. Hvis du har en bruger, men ikke et abonnement, kan du bruge appen i biografen.",
+      "p2": "Ønsker du derimod at få oplæste undertekster på <strong>Netflix</strong>, <strong>Viaplay</strong>, <strong>Disney+</strong> og/eller <strong>HBO</strong> skal du købe et SubReader Plus abonnement. Dette koster <strong>{{monthly}} månedligt</strong> eller <strong>{{yearly}} årligt.</strong>"
+    },
+    "q6": {
+      "title": "Hvad er ordblindhed og hvem har det?",
+      "p1": "Der er ofte mange spørgsmål der opstår når du finder ud af at du eller nogen i din familie er ordblind. For mange opdages ordblindhed i en tidlig alder, når læse- og skrivevanskeligheder bliver tydelige, når de begynder i skolen. Men for andre opdages ordblindhed, eller dysleksi som det også kan hedde, først meget senere, og det kan være en udfordring at følge undervisningen og underholdningen som alle andre uden at forstå hvad grunden er til det. Ordblindhed er ofte arveligt, og derfor er der tit flere i familien, der er ordblinde. Det er vigtigt at bemærke, at ordblindhed ikke har nogen forbindelse til intelligens, men kan henvises til et neurologisk hæmning i sprogets fonologiske komponent. Ordblinde trænger ofte mere tid til at læse tekster. Det betyder f.eks. at undertekster som afspilles på film går alt for hurtigt, og hjernen har ikke nok tid til at arbejde med teksten for at forstå, hvad den siger, før nye undertekster bliver vist på skærmen. Derfor kan det være svært at følge med i undertekster på film hvis du er ordblind.",
+      "p2": "5-8% af Danmarks befolkning anslås at være ordblinde, hvilket betyder, at der er omkring en halv million mennesker, der har ordblindhed i Danmark. Imidlertid har alle forskellige vanskeligheder med sin ordblindhed og nogen er bedre til at skrive og andre er bedre til læse. Der findes mange forskellige hjælpemidler til ordblindhed, og i dag er der også mange apps til ordblinde. Det gør hverdagen lettere og skaber bedre betingelser for mennesker med ordblindhed."
+    },
+    "q7": {
+      "title": "Hvad betyder det at have læsevanskeligheder?",
+      "p1": "Læse- og skrivevanskeligheder kan skyldes andre ting end ordblindhed. Det kan være svært at følge teksten og skrive korrekt, hvis du har en syns hæmning eller anden funktionsnedsættelse. Det kan også skyldes sproglig understimulation, sprog hæmning eller manglende undervisning. Derudover, hvis du ikke har dansk som modersmål, kan kulturelle forskelle og sproglige forskelle gøre det vanskeligt at finde ud af danske tekster. Derfor findes der flere forskellige grunde til, at et barn, en teenager eller en voksen har svært ved at følge undertekster på film og serier."
+    },
+    "q8": {
+      "title": "Hvad er udfordrende når man er ordblind og hvordan kan man få hjælp med ordblindhed?",
+      "p1": "Som ordblind kan det være hårdt at læse en masse tekst. Det tager tid at få teksten til at klæbe sammen, og du risikerer ofte at læse sætninger forkert, hvilket betyder at du ikke forstår hele tekstens kontekst. Det kan også opfattes som at bogstaverne hopper rundt i sætningerne, eller at teksten bliver sløret og uklar. Derfor er det også vanskeligt at holde trit med teksten, der skal læses hurtigt, f.eks. ved læsning af undertekster på film, der skifter hurtigt og går videre til en ny sætning når en ny person taler. Det gør det også udfordrende at deltage i visse sociale sammenhænge såsom biografbesøg eller filmaftener med venner. Det betyder, at mange som er ordblinde risikerer at føle sig udeladt, når nye film og serier diskuteres mellem familie og venner. Især udenlandske film som de ikke kan læse underteksterne til. Mange ordblinde lærer engelsk ligesom alle andre og kan derfor følge med film på engelsk, selvom de ikke kan læse underteksterne.",
+      "p2": "Der findes mange hjælpemidler til ordblinde i form af computerprogrammer, læselinealer, men også apps. Nogle hjælpemidler understøttes af kommuner og skoler, mens andre kan købes privat. En logoped kan hjælpe dig med at vælge gode ordblinde hjælpemidler og kan anbefale, hvilke værktøjer der passer til dig. Du kan også søge på internettet efter ordblinde hjælpemidler. Da der nu er mange apps til ordblinde, er det nemt at prøve lidt forskellige hjælpemidler, og se hvilke du bedst kan lide.",
+      "p3": "Vi har lavet en oversigt over nogle af de værktøjer der findes til ordblinde <0>her</0>",
+      "link": "https://drive.google.com/file/d/1Ys_UzoL8hpRu8F3d2DdUxqwHA102Q1Gg/view?usp=sharing"
+    },
+    "q9": {
+      "title": "Hvad er dysleksi?",
+      "p1": "Dysleksi og ordblindhed er to ord for det samme. Dysleksi bruges ofte som fagudtryk i skolen, mens ordblindhed bruges mest i mundtlig tale."
+    }
+  },
+  "school": {
+    "heading": "SubReader School",
+    "q1": {
+      "title": "Hvordan kan min skole få SubReader?",
+      "p1": "Hvis du vil vide mere om SubReader School eller få opsat SubReader School på din skole kan du kontakte vores kollegaer hos Vitec MV, som styrer vores SubReader School licenser og support. De kan informere om priser og opsætning. Du kan kontakte dem på: <0>{{email}}</0> eller på telefon <2>{{phoneLink}}</2>.",
+      "p2": "Ønsker du som forældre at dit barns skole tilbyder SubReader School og oplæsning af undertekster til undervisning og film, så kan du  bede en underviser eller ansvarlig på skolen om at kontakte os for at få mere info om hvordan de får adgang til SubReader.",
+      "email": "salg.mv@vitecsoftware.com",
+      "phone": { "content": "+45 65 91 80 22", "link": "+4565918022" }
+    },
+    "q2": {
+      "title": "Skal eleven have et SubReader abonnement for at kunne bruge SubReader School?",
+      "p1": "En elev skal ikke have et abonnement for at benytte SubReader i skolen, hvis skolen allerede har et SubReader abonnement. Eleven skal blot logge på med sit UNI-Login og vil herefter have adgang, såfremt skolen har købt en SubReader School licens.",
+      "p2": "OBS: SubReader Plus abonnement giver ikke adgang til oplæste undertekster i undervisningen. Dette kræver at skolen/kommunen har købt en SubReader Shcool licens."
+    },
+    "q3": {
+      "title": "Koster det penge for eleven at bruge SubReader School?",
+      "p1": "Eleven skal ikke betale for at benytte SubReader hjælpemidler i skolen. Skolen skal have en licens, som eleven vil modtage gennem sit UNI-login, såfremt de har købt det."
+    },
+    "q4": {
+      "title": "Hvordan kan jeg logge på SubReader School?",
+      "p1": "Når du starter appen vil du have mulighed at logge på med UNI-Login. Det er den nedereste knap af de forskellige login muligheder. I skolen kræver det herefter blot at underviserne har installeret SubReader’s Google Chrome plugin og logget ind med deres UNI-Login her også, samt har en SubReader School licens."
+    },
+    "q5": {
+      "title": "Kræver det ekstraudstyr at bruge SubReader på skolen?",
+      "p1": "Nej, det er nemt at integrere SubReader i skolen. Det eneste der skal bruges er et Google Chrome plugin, som kan downloades efter skolen har købt en licens. Hvis du vil have hjælp med opsætning af SubReader School kan du kontakte vores samarbejdspartner Vitec-MV på email: <0>{{email}}</0> eller telefon <2>{{phoneLink}}</2>.",
+      "email": "salg.mv@vitecsoftware.com",
+      "phone": { "content": "+45 65 91 80 22", "link": "+4565918022" }
+    }
+  },
+  "bio": {
+    "heading": "SubReader Cinema",
+    "q1": {
+      "title": "Hvordan bruger jeg SubReader i biografen?",
+      "p1": "For at bruge SubReader i biografen skal du downloade appen på din telefon og oprette en bruger. Inden du sætter dig på din plads skal du bruge scanne-funktionen i app’en til at scanne QR-koden der hænger ude foran den sal du skal ind i. App’en vil automatisk begynde at læse undertekster op når filmen begynder. Husk at bruge høretelefoner så du ikke forstyrrer de andre der skal se film, samt at sætte din telefon på lydløs og slukke for skærmen."
+    },
+    "q2": {
+      "title": "Koster det penge at bruge SubReader i biografen?",
+      "p1": "Det er gratis at bruge SubReader i biografen."
+    },
+    "q3": {
+      "title": "Skal jeg have oprettet en bruger i appen for at kunne bruge SubReader i biografen?",
+      "p1": "Ja. Du skal have oprettet en bruger i app'en, men du behøver ikke at købe et SubReader Plus abonnement."
+    },
+    "q4": {
+      "title": "Skal jeg have et SubReader Plus abonnement for at kunne bruge SubReader i biografen?",
+      "p1": "Nej, du behøver ikke købe et SubReader abonnement for at bruge app’en i biografen. Du skal dog have oprettet en bruger."
+    },
+    "q5": {
+      "title": "Hvorfor kan jeg ikke bruge appen hos min lokale biograf?",
+      "p1": "Hvis du ikke kan bruge appen i din lokale biograf betyder det at biografen ikke har systemet installeret. Vi har tit oplevet at biografer har været hurtige til at installere SubReader, når de hører fra deres kunder at dette er noget de ønsker.",
+      "p2": "Biografejere kan kontakte os på ",
+      "link": "alexander@subreader.dk"
+    },
+    "q6": {
+      "title": "Hvordan kan jeg vide om min lokale biograf har SubReader?",
+      "p1": "Inde i SubReader app’en finder du et kort med oversigt over alle biografer der har SubReader installeret. Her kan du søge efter din lokale biograf og se om den tilbyder SubReader. Hvis du er i tvivl kan du altid spørge din biograf hvis de tilbyder oplæste undertekster med SubReader, og hvis ikke må du gerne henvise dem til os så fører vi samtalen videre."
+    },
+    "q7": {
+      "title": "Har jeg brug for noget ekstra udstyr for at kunne bruge SubReader i biografen?",
+      "p1": "Det eneste du behøver for at få underteksterne læst højt i biografen er din telefon eller iPad med app’en installeret og et par høretelefoner."
+    },
+    "q8": {
+      "title": "Kan jeg bruge SubReader i biografen uanset hvilket sprog filmen er på?",
+      "p1": "SubReader fungerer uanset hvilket talesprog der bruges i filmen."
+    },
+    "q9": {
+      "title": "Skal jeg have internet for at bruge SubReader i biografen?",
+      "p1": "Når du ser en film i biografen med SubReader, er det vigtigt at du enten har et 3G/4G signal på din telefon, eller er koblet til biografens wifi – spørg personalet for login hertil. Vi gør opmærksom på, at SubReader bruger meget lidt data/internet, og du skal derfor ikke være bange for at vi bruger al din data i dit abonnement."
+    }
+  },
+  "plus": {
+    "heading": "SubReader Plus",
+    "q1": {
+      "title": "Hvad er SubReader Plus?",
+      "p1": "SubReader Plus er et abonnement der giver dig adgang til oplæste undertekster på de største streamingtjenester, såsom <strong>Netflix</strong>, <strong>Disney+</strong>, <strong>Viaplay</strong> og <strong>HBO Nordic.</strong>",
+      "p2": "Med et SubReader Plus abonnement har du fri adgang til alle vores stemmer, som er lavet med kunstig intelligens. Ved oplæsning af undertekster synkroniseres oplæsningen med dine film og serier nemt og automatisk. SubReader Plus gør det nemt og afslappet at følge med i film og serier som alle andre uanset om du er ordblind, har nedsat syn eller har andre læsevanskeligheder, som gør det svært at læse og forstå undertekster."
+    },
+    "q2": {
+      "title": "Hvad koster SubReader Plus?",
+      "p1": "Et månedligt SubReader Plus abonnement koster <strong>{{monthly}}/md</strong>. Det månedlige abonnement bliver trukket én gang i måneden. Et årlig abonnement koster kun <strong>{{yearly}}/året</strong> og du sparer dermed <strong>{{discount}}</strong>. Den årlige SubReader pris betales kun én gang om året. Du kan se de forskellige SubReader priser inde i appen eller på hjemmesiden. Der er ingen binding på SubReader abonnementer og de kan altid opsiges.",
+      "p2": "Man får altid en 14 dage gratis prøveperiode når man opretter en ny bruger på SubReader. Prøveperioden er uden binding og kan ligesom sit abonnement altid opsiges."
+    },
+    "q3": {
+      "title": "Hvordan får jeg et SubReader abonnement?",
+      "p1": "Et SubReader Plus abonnement kan købes direkte i app’en, eller gennem vores hjemmeside på ",
+      "link": "www.subreader.dk",
+      "href": "https://subreader.dk"
+    },
+    "q4": {
+      "title": "Hvordan får jeg en 14 dages gratis prøveperiode?",
+      "p1": "For at få en 14 dage gratis SubReader Plus prøveperiode skal du oprette en bruger i app’en og tilknytte et abonnement uden binding. Vi efterspørger dine kortoplysninger for at du nemt skal kunne fortsætte dit SubReader Plus abonnement efter 14 dage. Du kan vælge at framelde dig inden de 14 dage er gået hvis du ikke vil betale for et abonnement efterfølgende."
+    },
+    "q5": {
+      "title": "Gælder et SubReader abonnement for hele familien?",
+      "p1": "Ja. Hvert SubReader Plus abonnement kan bruges af op til 5 familiemedlemmer samtidig. Det betyder at man kan logge ind med den samme bruger på 5 forskellige enheder og benytte sig af Plus abonnementet. Der gøres dog opmærksom på, at dette kun gælder for familien og ens bruger må aldrig deles med personer udenfor familien."
+    },
+    "q6": {
+      "title": "Kan jeg vælge mellem forskellige stemmer?",
+      "p1": "Inde i app’en kan du finde mange forskellige stemmer der kan læse underteksterne højt, både kvindelige og mandlige. Stemmerne er baseret på den nyeste teknologi indenfor talesyntese, som opdateres hver gang der sker forbedringer i teknologien. Det betyder, at SubReader altid tilbyder de bedste stemmer der er tilgængelige."
+    },
+    "q7": {
+      "title": "På hvilke skærme kan jeg få oplæste undertekster når jeg ser film med SubReader?",
+      "p1": "Du kan film eller serier med oplæste undertekster på flere forskellige enheder. Du kan bruge SubReader til TV, computer eller iPad når du ser film, men underteksterne vil altid blive oplæst på din telefon."
+    },
+    "q8": {
+      "title": "Forstyrrer jeg andre hvis jeg bruger SubReader?",
+      "p1": "Nej. SubReader er et diskret hjælpemiddel som du kan bruge når du ser film alene eller med andre. Brug høretelefoner når du får undertekster oplæst, så undgår du at forstyrre andre. Når du har synkroniseret SubReader med filmen du ser, kan du slukke skærmen og lægge den væk uden at oplæsningen af underteksterne stopper - det er ligeledes muligt at sætte telefonen på lydløs i biografen."
+    },
+    "q9": {
+      "title": "Kan man få underteksterne oplæst på flere forskellige sprog?",
+      "p1": "Du kan få oplæste undertekster på de sprog, hvor der er undertekster tilgængelige på din streamingtjeneste. Det betyder at du kan skifte mellem forskellige sprog hvis din film eller serie har undertekster på forskellige sprog."
+    },
+    "q10": {
+      "title": "Hvordan kan jeg afmelde?",
+      "p": {
+        "1": "Du kan afmelde dit abonnement direkte i appen under “indstillinger” og “abonnementer”. Det er ligeledes muligt at afmelde sit abonnement på ",
+        "link": "www.subreader.dk",
+        "2": ", under ens konto oplysninger."
+      }
+    }
+  }
+}

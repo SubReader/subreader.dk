@@ -1,0 +1,54 @@
+{
+  "videoSection": {
+    "heading": "Hør om Karlas oplevelser med film i skolen",
+    "videoUrl": "https://www.youtube.com/embed/K5STAxJXHG8",
+    "services": [
+      {
+        "logo": "fc",
+        "alt": "Film Centralen Logo"
+      },
+      {
+        "logo": "cfu",
+        "alt": "Centre for undevisningsmidler danmark Logo"
+      }
+    ],
+    "info": {
+      "heading": "Oplæsning af undertekster i undervisningen",
+      "p": [
+        " SubReader School giver underviserne mulighed for at vise udenlandske undervisningsfilm i i undervisningen, uden at være bekymrede for om ordblinde og andre svagtlæsende elever kan følge med.",
+        "SubReader kan benyttes på de gængse undervisningstjenester: MitCFU og Filmcentralen, men også på Netflix, Disney+ og Viaplay."
+      ]
+    }
+  },
+  "contactSection": {
+    "heading": "Neem contact met ons op en kom meer te weten over SubReader",
+    "required": "Dit veld is verplicht",
+    "success": "Email er sendt.",
+    "spam": "Wacht 10 minuten voor je een nieuw bericht kan verzenden.",
+    "send": "Verzenden",
+    "input": {
+      "name": {
+        "aria-label": "Navn Inputfelt",
+        "placeholder": "Dit fulde navn*"
+      },
+      "school": {
+        "aria-label": "Skolenavn Inputfelt",
+        "placeholder": "Skolenavn*"
+      },
+      "email": {
+        "aria-label": "Email Inputfelt",
+        "placeholder": "Email-Adresse*",
+        "invalid": "Ikke gyldig email"
+      },
+      "phone": {
+        "aria-label": "Telefon nummer Inputfelt",
+        "placeholder": "Telefon nummer*",
+        "invalid": "Minimaal 10 cijfers"
+      },
+      "message": {
+        "aria-label": "Kommentar Textfelt",
+        "placeholder": "Evt. kommentarer"
+      }
+    }
+  }
+}

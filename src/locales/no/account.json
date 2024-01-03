@@ -1,0 +1,26 @@
+{
+  "info": {
+    "title": "Kontoopplysninger",
+    "personal": {
+      "heading": "Personlige Opplysninger",
+      "name": "Navn",
+      "country": "Land"
+    },
+    "subscription": {
+      "heading": "Abonnementsinformasjon",
+      "subscription": "Abonnement",
+      "status": {
+        "content": "Status",
+        "active": "Aktivt",
+        "cancelled": "Ikke aktivt",
+        "activeButCancelled": "Aktivt, men abonnementet er avmeldt"
+      },
+      "free": "gratis",
+      "button": {
+        "active": "Avmeld Abonnement",
+        "disabled": "Abonnement er avmeldt"
+      }
+    }
+  },
+  "log-out": "Logg ut"
+}

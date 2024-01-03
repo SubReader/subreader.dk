@@ -1,0 +1,37 @@
+{
+  "seoTitle": "Logg inn",
+  "seoDescription": "Her kan du opprette/logge inn med din SubReader konto, og begynne å få undertekster opplest med din telefon.",
+  "continue": {
+    "divider": "eller",
+    "sms": "Fortsett med SMS",
+    "email": "Fortsett med Email",
+    "facebook": "Fortsett med Facebook",
+    "google": "Fortsett med Google"
+  },
+  "terms": {
+    "content": "Ved å fortsette aksepterer du våre",
+    "span": "vilkår og betingelser",
+    "href": "https://subreader.co.uk/terms/"
+  },
+  "phone": {
+    "seoTitle": "Enter Telefon",
+    "title": "Inntast telefonnummer",
+    "button": "Fortsett",
+    "verificationReminder": "Inntast koden vi har sendt til deg på SMS"
+  },
+  "email": {
+    "seoTitle": "Enter Email",
+    "placeholder": "din@email.no",
+    "title": "Inntast Email",
+    "button": "Fortsett",
+    "verificationReminder": "Inntast koden vi har sendt til deg på Email"
+  },
+  "verification": {
+    "button": "Bekreft"
+  },
+  "name": {
+    "seoTitle": "Enter Navn",
+    "title": "Inntast navn",
+    "button": "Opprett bruker"
+  }
+}

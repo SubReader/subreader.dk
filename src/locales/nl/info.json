@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "titleTemplate": "Ondertitels voorlezen",
+    "description": "Maak vandaag nog gebruik van de gesproken ondertiteling van SubReader voor buitenlandse films die beschikbaar zijn via de streamingdiensten!"
+  },
+  "address": {
+    "street": "Sankt Gertruds Stræde 5,5",
+    "city": "1120 Kopenhagen"
+  },
+  "phone": {
+    "content": "+45 42 90 11 17",
+    "value": "+4542901117"
+  },
+  "cvr": "CVR: 37258024",
+  "email": "contact@subreader.nl",
+  "socials": {
+    "youtube": "https://www.youtube.com/channel/UCmIdYmdNJY5zFSLWFtSHwxQ",
+    "instagram": "https://www.instagram.com/subreader_app/",
+    "facebook": "https://www.facebook.com/subreadernl"
+  },
+  "downloadButtons": {
+    "google": {
+      "aria": "Download de SupReader app via Google Play",
+      "href": "https://play.google.com/store/apps/details?id=app.subreader",
+      "src": "google-play-nl.png"
+    },
+    "apple": {
+      "aria": "Download deSubReader app in de App Store",
+      "href": "https://apps.apple.com/app/subreader/id1105856178?l=nl",
+      "src": "apple-nl.svg"
+    }
+  }
+}

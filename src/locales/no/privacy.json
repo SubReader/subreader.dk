@@ -1,0 +1,45 @@
+{
+  "seoTitle": "Personvernregler",
+  "seoDescription": "Her kan du lese mer om Personvernregler gjeldende for SubReader hjemmeside og appen.",
+  "title": "Personvernregler",
+  "p1": "Vi innsamler informasjon for å gi deg muligheten for oppleste undertekster. Dette betyr at vi innsamler både personlig informasjon og “annen” informasjon.",
+  "list": [
+    "Informasjon du gir til oss: Når du oppretter en konto hos oss registrerer vi kontodetaljer; For eks. navn, E-mail adresse, passord, land. Vi registerer muligvis også din lokasjon.",
+    "Informasjon vi automatisk henter når du bruker SubReader: Når du bruker SubReader registrer vi en rekke opplysninger automatisk, herunder personlig informasjon og informasjon om hvordan du bruker tjenesten. Disse opplysningene er nødvendig for at vi kan sørge for best mulig kommunikasjon mellom deg som bruker og oss som virksomhet.",
+    "Når du deltar i undersøkelser, konkurranser eller giveaways innsamler vi kontaktdata, demografi og informasjon om berettigelse. Vi sponsorerer muligvis konkurranser, giveaways eller andre tilbud hvor vi kanskje krever at du gir oss din personlige data som f.eks; navn, E-mail adresse, telefonnummer og alder, samt annen informasjon som kan være relevant for din deltagelse.",
+    "Når du “connecter” med oss på sosiale medier innsamler vi muligvis din konto eller profilinformasjon. Du kan velge å logge inn eller opprette deg på tjenesten med Facebook eller andre sosiale medie tjenester. Når du kobler din sosiale medie konto innsamler vi personlig data som du har gitt adgang til på din sosiale profil. For eksempel når du logger inn med dine Facebook innloggingsopplysninger, gir du tillatelse til at vi innsamler personlig data fra din Facebook-profil, og som hører inn under Facebooks handelsbetingelser, som din E-mail adresse. Hvis du ikke ønsker å gi oss denne informasjonen blir du nødt til å endre innstillingene dine på din sociale medie profil.",
+    "Når du interagerer med våre tjenester innsamler vi informasjon om din brukeradferd på plattformen. Vi innsamler automatisk logg data og enhetsinformasjon. Vi bruker cookies og andre lignende teknologier. SubReader innsamler informasjon i forbindelse med dine betalinger gjennom SubReader plattformen. Denne informasjonen er nødvendig for å opprettholde kontrakten mellom dig og SubReader."
+  ],
+  "4-2": {
+    "heading": "1. Hvordan bruker vi dine personlige opplysninger",
+    "p1": "Vi benytter dine data til å styre forretningen vår, markedsføre og forbedre plattformem, utvikle nye tjenester og gi deg en mer personlig opplevelse når du interagerer med oss. Vi bruker også din informasjon til å kommunikere med deg.",
+    "p2": "Vi bruker din informasjon til følgende:",
+    "list": [
+      "Styre forretningen vår og kjøre tjenesten vår. Vi bruker din personlige data til å opprette og håndtere din personlige konto på SubReader, samt håndtere dine ordre.",
+      "Personliggjøre din opplevelse på vår tjeneste, bedre forstå våre brukere og få bruksinnsikt. Vi bruker din personlige informasjon til å lage analyser som kan forbedre funksjonaliteten av tjenesten. Vi benytter muligvis dine interaksjoner med plattformen, din kjøpshistorikk og preferanser, samt lignende informasjon som du sender til SubReader plattformen.",
+      "Kommunisere med deg og besvare dine forespørsler. Når man oppretter seg hos oss gir man tillatelse til at vi kan kommunisere med deg via E-mail eller push-varsler. Til dette benytter vi muligvis dine personlige opplysninger for å kunne kommunisere med deg om SubReader produkter eller tjenester som du har kjøpt eller til å informere deg om andre produkter, kampanjer eller tjenester som vi tror du kan ha interresse av. Du kan alltid styre den måten vi kommuniserer med deg i din kontos preferanser på hjemmesiden. Vi bruker også dine personlige opplysninger til å yte teknisk support/assistanse på plattformen. Dette inkluderer adgang til din SubReader-konto for å adressere tekniske forespørsler. Vi sender deg muligvis E-mails, selv om du har fravalgt dette, om oppdateringer av våre vilkår og betingelser samt handelsbetingelser.",
+      "Personliggjøre våre reklamer og markedsføring. Vi benytter din personlige informasjon og annen informasjon til å sende reklame/markedsføringskampanjer som gir deg informasjon om de produktene vi tenker er mest relevante for deg. Gitt at du har gitt oss lov til å sende deg meldinger med henblikk på markedsføring og reklame, eller annen informasjon, så benytter vi dine preferanser og opplysninger (blandt annet på sosiale medier) til å sende meldinger med innhold som vi tenker passer best til deg. Du har alltid mulighet til å avmelde deg alle former for markedsføringsmateriale fra SubReader."
+    ]
+  },
+  "4-3": {
+    "heading": "1.1. Hvor er dine personopplysninger gjemt",
+    "p1": "SubReader benytter en rekke forskjellige tredjeparts tjenestetilbydere til å hjelpe oss med å tilby tjenester relatert til SubReaders plattform. Disse tjenestetilbyderne kan være lokalisert innenfor eller utenfor det Europeiske Økonomiske Samarbeidsområde (“EØS”). Enhver form for flytting av dine personlige opplysninger vil bli gjort i samsvar med relevante lover.",
+    "p2": "Disse tjenestetilbyderne vil kun ha begrenset tilgang til dine opplysninger for å kunne utføre oppgaver på våre vegne og er med kontrakt bundet til å beskytte og utelukkende bruke opplysningene til det avtalte formål, og som er i overensstemmelse med disse betingelser. Vi har før vi deler din data med en tredjepart tatt de nødvendige forbehold for å sikre et passende nivå av databeskyttelse. Dette kunne være på basis av EU modellklausulene (en rekke klausuler utstedt av den Europeiske kommisjon)."
+  },
+  "4-4": {
+    "heading": "1.2. Hvor lenge er din personlige data gjemt",
+    "p1": "SubReader gjemmer din data så lenge du har en konto hos oss, eller har behov for å benytte deg av våre tjenester. Vi beholder og bruker også din data som nødvendig for å overholde de lovmessige rettningslinjer og løse konflikter."
+  },
+  "4-5": {
+    "heading": "1.3. Hvem er ansvarlig for din personlige data",
+    "p1": "SubReader ApS er databehandler på de opplysningene du sender til oss og er den ansvarlige for dataen."
+  },
+  "4-6": {
+    "heading": "1.4. Hvem har adgang til din personlige data",
+    "p1": "Din data kan bli delt i SubReader ApS, og tilhørende datter-/søsterselskap som er relateret ved normalt eierskap eller kontroll. Vi sender, selger eller bytter aldri din data for markedsføringsmessige tiltak til tredjepart utenfor SubReader ApS gruppen. Data som er vidersendt til tredjepart blir utelukkende brukt til å levere ovenstående tjenester, for eksempel medie tjenester og byråer for distribusjon av nyhetsbrev, kredittreferanser eller med det formål å lage en kredittvurdering, identitetssjekk og gjeldsinndrivelse."
+  },
+  "4-7": {
+    "heading": "1.5. Hvordan beskytter vi din data",
+    "p1": "Vi har tatt tekniske og organisatoriske prosesser i bruk for å beskytte din data mot å bli mistet, manipuleret eller tilgått uautorisert. Vi fortsetter med å innarbeide tiltak som følger den teknologiske utviklingen. For å gjøre betaling hos oss så enkel som mulig benytter vi krypterte formularer. Det betyr at dine opplysninger blir sendt gjennom en sikker forbindelse og at eksterne partnere ikke har tilgang til dine personlige data. Ved betaling med kort arbeider vi sammen med betalingsinnløsere som hjelper oss med å sjekke direkte hos din bank at ditt kort er validert til kjøp. Våre betalingsinnløsere behandler dine kortopplysninger i henhold til den internasjonale sikkerhetsstandard PCI DSS, som er utviklet av selskapene VISA, MasterCard, Diners, American Express og JCB. Det betyr at ditt betalingskort er behandlet på et veldig høyt sikkerhetsnivå. Når du betaler med kort, forbeholder vi oss rettigheten til å utføre en identitetssjekk."
+  }
+}

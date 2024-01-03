@@ -1,0 +1,50 @@
+{
+  "seoTitle": "SubReader bioscopen",
+  "cinema": {
+    "heading": "SubReader bioscopen"
+  },
+  "StarterPackage": {
+    "heading": {
+      "content": "Startpakket voor bioscopen",
+      "span": "Wil jij graag een dyslexievriendelijke bioscoop? Download de materialen hieronder en ga aan de slag!"
+    },
+    "list": {
+      "graphic": {
+        "imageAlt": "Grafische materialen voor bioscopen",
+        "heading": "Grafische materialen",
+        "content": "Bij de aanschaf van het SubReader platform wordt grafisch materiaal meegeleverd dat in de bioscoop gebruikt kan worden. Dit pakket bevat onder andere banners, video's voor het filmdoek, flyers, etc.",
+        "buttonText": "Download grafische materialen"
+      },
+      "operator": {
+        "imageAlt": "Technische details voor bioscopen",
+        "heading": "Technische details",
+        "content": "Om met SubReader aan de slag te gaan, moet de operator over een aantal materialen beschikken. Dit bevat onder andere handleidingen, veelgestelde vragen, documenten voor het oplossen van problemen en een welkomstbrief. Individuele materialen voor de bioscoop worden per mail verzonden.",
+        "buttonText": "Download technische details"
+      },
+      "some": {
+        "imageAlt": "SoMe materialen voor bioscopen",
+        "heading": "SoMe materialen",
+        "content": "Met dit materiaal kan de bioscoop de samenwerking met SubReader lanceren op sociale media. Dit zijn voorbeelden van berichten en advertenties die gebruikt kunnen worden op bijvoorbeeld Facebook."
+      },
+      "pressMaterial": {
+        "imageAlt": "Persmateriaal voor bioscopen",
+        "heading": "Persmateriaal",
+        "content": "De media is erg enthousiast over SubReader en uw bioscoop kan ongetwijfeld profiteren van de media met een samenwerking. Hier vind je het benodigde materiaal dat je kan gebruiken voor de pers."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Neem contact met ons op en kom meer te weten over SubReader",
+    "name": "Naam*",
+    "email": "E-mail*",
+    "phone": "Telefoonnummer*",
+    "subject": "Onderwerp*",
+    "message": "Bericht*",
+    "success": "Je bericht is verzonden!",
+    "spam": "Wacht 10 minuten voor je een nieuw bericht kan verzenden.",
+    "buttonText": "Verzenden",
+    "fieldRequired": "Dit veld is verplicht",
+    "emailValidation": "Het e-mailadres is niet geldig ",
+    "phoneValidation": "Minimaal 10 cijfers"
+  }
+}

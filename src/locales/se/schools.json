@@ -1,0 +1,61 @@
+{
+  "videoSection": {
+    "heading": "Så här enkelt är det för eleverna att använda SubReader",
+    "videoUrl": "https://www.youtube.com/embed/b6OXcojSh-I",
+    "services": [
+      {
+        "logo": "vitec",
+        "alt": "Vitec Logo"
+      },
+      {
+        "logo": "filmochskola",
+        "alt": "filmochskola logo"
+      },
+      {
+        "logo": "urplay",
+        "alt": "urplay logo",
+        "maxWidth": "110px"
+      }
+    ],
+    "info": {
+      "heading": "Upplästa undertexter i undervisningen",
+      "p": [
+        "SubReader School ger lärarna en möjlighet att visa utländska filmer i undervisningen utan att vara bekymrade för att dyslektiker eller elever med lässvårigheter har svårt att följa med.",
+        "SubReader kan läsa undertexter högt på svenska eller andra språk så att eleven själv kan lyssna med utan att behöva läsa undertexterna.",
+        "SubReader kan användas till filmer på UR play samt Film och Skola men även på streamingtjänsterna så som Netflix, HBO Nordic, Disney+ och Viaplay.",
+        "SubReader School lösningen lanseras i samarbete med Vitec MV. Om din kommun eller skola vill prova eller köpa SubReader får ni gärna fylla i formuläret nedan så kontaktar Vitec MV er för mer information. För generella frågor om SubReader får ni gärna skriva till kontakt@subreader.se eller ringa till 0793-36 91 97."
+      ]
+    }
+  },
+  "contactSection": {
+    "heading": "Kontakta oss och hör mer om SubReader",
+    "required": "Fältet är obligatoriskt",
+    "success": "Mejlet har skickats.",
+    "spam": "Du måste vänta 10 minuter innan du kan skicka igen.",
+    "send": "Skicka",
+    "input": {
+      "name": {
+        "aria-label": "Navn Inputfelt",
+        "placeholder": "Ditt namn*"
+      },
+      "school": {
+        "aria-label": "Skolenavn Inputfelt",
+        "placeholder": "Skolnamn*"
+      },
+      "email": {
+        "aria-label": "Email Inputfelt",
+        "placeholder": "E-post*",
+        "invalid": "Ogiltig e-postadress"
+      },
+      "phone": {
+        "aria-label": "Telefon nummer Inputfelt",
+        "placeholder": "Telefonnummer*",
+        "invalid": "Minimum 8 siffror"
+      },
+      "message": {
+        "aria-label": "Kommentar Textfelt",
+        "placeholder": "Evt. kommentar"
+      }
+    }
+  }
+}

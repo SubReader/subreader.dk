@@ -1,0 +1,128 @@
+{
+  "seoTitle": "SubReader",
+  "hero": {
+    "title": "Upplästa undertexter på utländska filmer",
+    "movie-btn": "Se filmen om SubReader",
+    "button": "Lär mer om SubReader",
+    "alt": "Upplästa undertexter hero bild"
+  },
+  "worksWith": {
+    "trial-btn": "Prova 14 dagar gratis",
+    "title": "Använd SubReader med alla dina streamingtjänster",
+    "services": [
+      {
+        "logo": "netflix",
+        "alt": "Fungerar med Netflix"
+      },
+      {
+        "logo": "viaplay",
+        "alt": "Fungerar med Viaplay"
+      },
+      {
+        "logo": "disney",
+        "alt": "Fungerar med Disney Plus"
+      }
+    ]
+  },
+  "howAppWorks": {
+    "title": "Så kommer du igång",
+    "to": "/subscription/monthly",
+    "info": {
+      "title": "Hämta SubReader",
+      "content": "SubReader fungerar på iPhone och Android telefoner, så det är enkelt för alla att få uppläsning av undertexter på filmer och serier. Det finns inga ursäkter för att inte hämta SubReader appen, luta dig tillbaka och njuta av filmen. ",
+      "button": "Prova 14 dagar gratis",
+      "binding": "Ingen bindingstid",
+      "alt": "Hämta SubReader Appen"
+    },
+    "info2": {
+      "title": "Sök efter dina filmer",
+      "content": "SubReader söker efter film och serier på de största streamingtjänsterna, vilket gör att du enkelt kan se film med upplästa undertexter på tusentals filmer och serier. Med SubReader Plus har du tillgång till de bästa rösterna vid uppläsning av textremsor på Netflix, Viaplay och Disney+.",
+      "button": "Prova 14 dagar gratis",
+      "binding": "Ingen bindingstid",
+      "alt": "Sök efter dina filmer med SubReader appen"
+    },
+    "info3": {
+      "title": "Låt appen lyssna med",
+      "content": "Låt SubReader lyssna med i filmen i 10 sekunder så kan den själv avgöra varifrån i filmen som undertexterna ska börja läsas upp högt. Appen synkroniserar automatiskt, så installationen av SubReader går snabbt.",
+      "button": "Prova 14 dagar gratis",
+      "binding": "Ingen bindingstid",
+      "alt": "Låt appen synkronisera med din film "
+    }
+  },
+  "movie": {
+    "title": "Luta dig tillbaka och njut av en bra film",
+    "content": "Välj mellan många olika röster och hitta vilken du gillar bäst. Luta dig tillbaka, lägg upp benen i soffan och njut av ett helt nytt universum av utländska filmer med upplästa undertexter.",
+    "button": "Kom igång med SubReader"
+  },
+  "whySubReader": {
+    "testimonial": {
+      "title": "Därför ska du använda SubReader",
+      "content": "Med SubReader kan du se alla de senaste utländska filmer och serier på samma villkor som alla andra. SubReader läser diskret upp undertexterna utan att du stör någon annan. SubReader är därför ett bra hjälpmedel till dyslektiker och personer med lässvårigheter.",
+      "review": "Idag har jag sett en engelsk film för första gången i hela mitt liv. Det var en fantastisk upplevelse - SubReader har öppnat en helt ny värld för mig.",
+      "author": "Camilla Møller",
+      "authorSubtitle": "Dyslektiker"
+    },
+    "feature": {
+      "title": "Kan användas på alla dina enheter",
+      "content": "Oavsett om du ser din film med SubReader på TV:n eller på din dator i sengen så kan SubReader tillhandahålla uppläsning av undertexter. "
+    },
+    "feature2": {
+      "title": "Sök på alla dina streamingtjänster",
+      "content": "Sök på titeln på filmen eller serien som du vill se så söker appen själv bland tusentals filmer och serier hos Netflix, Disney+ och Viaplay"
+    },
+    "feature3": {
+      "title": "Alltid direkt i handen",
+      "content": "Din telefon är allt du behöver för att få upplästa undertexter. Ser du film med familjen eller vänner kan du använda hörlurar för att få textremsorna upplästa på ett diskret sätt."
+    }
+  },
+  "subscriptions": {
+    "title": {
+      "content": "Få tillgång till en värld full av underhållning med ",
+      "span": "SubReader plus"
+    },
+    "features": [
+      "Använd i Biografen",
+      "Använd med Netflix",
+      "Använd med Disney+",
+      "Använd med Viaplay"
+    ],
+    "binding": "Ingen bindingstid",
+    "yearly": {
+      "title": "Årligt",
+      "button": "Prova 14 dagar gratis",
+      "banner": "Spara {{percent}}",
+      "year": "år"
+    },
+    "monthly": {
+      "title": "Måned",
+      "button": "Prova 14 dagar gratis",
+      "month": "månad"
+    }
+  },
+  "testimonials": {
+    "title": "Detta säger användarna om SubReader",
+    "1": {
+      "content": "Idag har jag sett en engelsk film för första gången i hela mitt liv. Det var en fantastisk upplevelse - SubReader har öppnat en helt ny värld för mig.",
+      "author": "Camilla Møller",
+      "authorSubtitle": "Dyslektiker",
+      "alt": "Bild av Camilla som är dyslektiker"
+    },
+    "2": {
+      "content": "Jag har två barn med dyslexi. Den ena började gråta av glädje för nu finns det så många filmer han kan och vill se.",
+      "author": "Lone Munch",
+      "authorSubtitle": "Mamma till dyslektiker",
+      "alt": "Bild av Lone Munch som är mamma till dyslektiker"
+    },
+    "3": {
+      "content": "Nu kan jag ha en hörlur i ena örat och lyssna till filmen med de andra. Därför kan jag också vara med på samma villkor som alla andra.",
+      "author": "Christian Bock",
+      "authorSubtitle": "Dysleximentor",
+      "alt": "Bild av Christian Bock som ør dysleximentor"
+    }
+  },
+  "download": {
+    "title": "Få dina undertexter upplästa med SubReader idag",
+    "content": "Hämta SubReader appen på din telefon så är du redo att få upplästa undertexter på alla dina streamingtjänster.",
+    "alt": "Med SubReader kan du få uppläst undertexter på alla dina streamingtjänster"
+  }
+}

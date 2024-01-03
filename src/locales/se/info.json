@@ -1,0 +1,30 @@
+{
+  "seo": {
+    "titleTemplate": "Upplästa undertexter",
+    "description": "Få upplästa undertexter på utländska filmer med SubReader på alla dina streamingtjänester idag!"
+  },
+  "address": {
+    "street": "Sankt Gertruds Stræde 5,5",
+    "city": "1120 København K"
+  },
+  "phone": { "content": "+46 793 36 91 97", "value": "+460793369197" },
+  "cvr": "CVR: 37258024",
+  "email": "kontakt@subreader.se",
+  "socials": {
+    "youtube": "https://www.youtube.com/channel/UCmIdYmdNJY5zFSLWFtSHwxQ",
+    "instagram": "https://www.instagram.com/subreader_app/",
+    "facebook": "https://www.facebook.com/subreaderdk"
+  },
+  "downloadButtons": {
+    "google": {
+      "aria": "Ladda ned SubReader App på Google Play",
+      "href": "https://play.google.com/store/apps/details?id=app.subreader",
+      "src": "google-play-sv.png"
+    },
+    "apple": {
+      "aria": "Ladda ned SubReader App på App Store",
+      "href": "https://apps.apple.com/app/subreader/id1105856178?l=sv",
+      "src": "apple-sv.svg"
+    }
+  }
+}

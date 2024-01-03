@@ -1,0 +1,37 @@
+{
+  "seoTitle": "Logga in",
+  "seoDescription": "Här kan du skapa/logga in på ditt SubReader konto och få undertexter uppläst på din telefon.",
+  "continue": {
+    "divider": "eller",
+    "sms": "Fortsätt med SMS",
+    "email": "Fortsätt med Email",
+    "facebook": "Fortsätt med Facebook",
+    "google": "Fortsätt med Google"
+  },
+  "terms": {
+    "content": "Genom att fortsätta så accepterar du våra",
+    "span": "villkår",
+    "href": "https://subreader.co.uk/terms/"
+  },
+  "phone": {
+    "seoTitle": "Ange Telefonnummer",
+    "title": "Ange ditt telefonnummer",
+    "button": "Fortsätt",
+    "verificationReminder": "Öppna dina meddelanden och använd koden som vi har skickat till dig"
+  },
+  "email": {
+    "seoTitle": "Ange Email",
+    "placeholder": "din@email.se",
+    "title": " Ange din email",
+    "button": "Fortsätt",
+    "verificationReminder": "Öppna din email och använd koden som vi har skickat till dig"
+  },
+  "verification": {
+    "button": "Bekräfta"
+  },
+  "name": {
+    "seoTitle": "Ange namn",
+    "title": "Ange namn",
+    "button": "Skapa ett konto"
+  }
+}

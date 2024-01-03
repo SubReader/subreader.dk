@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "index": "Första sidan",
+    "faq": "Frågor och svar",
+    "bio": "Biografer",
+    "schools": "Till skolor",
+    "get-started": "Kom igång",
+    "account": "Mitt konto",
+    "blog": "blogg",
+    "log-out": "Logga ut"
+  },
+  "trial-btn": "Prova 14 dagar gratis"
+}

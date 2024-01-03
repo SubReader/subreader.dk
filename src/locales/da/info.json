@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "titleTemplate": "Oplæste undertekster",
+    "description": "Få oplæste undertekster på udenlandske film med SubReader på tværs af dine streamingtjenester i dag!"
+  },
+  "address": {
+    "street": "Sankt Gertruds Stræde 5,5",
+    "city": "1120 København K"
+  },
+  "phone": { "content": "+45 42 90 11 17", "value": "+4542901117" },
+  "cvr": "CVR: 37258024",
+  "email": "kontakt@subreader.dk",
+  "socials": {
+    "youtube": "https://www.youtube.com/channel/UCmIdYmdNJY5zFSLWFtSHwxQ",
+    "instagram": "https://www.instagram.com/subreader_app/",
+    "facebook": "https://www.facebook.com/subreaderdk"
+  },
+  "downloadButtons": {
+    "google": {
+      "aria": "Download SubReader App på Google Play",
+      "href": "https://play.google.com/store/apps/details?id=app.subreader",
+      "src": "google-play-dk.png"
+    },
+    "apple": {
+      "aria": "Download SubReader App på App Store",
+      "href": "https://apps.apple.com/app/subreader/id1105856178?l=da",
+      "src": "apple-dk.svg"
+    }
+  },
+  "langs": {
+    "da": "Dansk",
+    "se": "Svenska",
+    "nl": "Nederlands",
+    "no": "Norsk",
+    "en": "English"
+  }
+}

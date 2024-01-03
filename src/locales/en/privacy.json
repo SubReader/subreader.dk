@@ -1,0 +1,49 @@
+{
+  "seoTitle": "Privacy Policy",
+  "seoDescription": "Here you can read more about the Privacy Policy regarding the SubReader website and app.",
+  "title": "Privacy Policy",
+  "p1": "We collect information to give you the ability to read subtitles. This means that we collect both personal information and “other” information.",
+  "list": [
+    "Information you provide to us: When you create an account with us, we register account details; For example Name, Email Address, Password, Country, Location. We may also register your location.",
+    "Information we automatically collect when you use SubReader: When you use SubReader, we register a number of information automatically, including personal information and information about how you use the service. This information is necessary for us to ensure the best communication between you as a user and us as a company.",
+    "When you participate in surveys, contests or giveaways, we collect contact information, demographics and eligibility information. We may sponsor contests, giveaways or other offers where we may require you to provide us with your personal data such as; name, email address, telephone number and age, as well as other information that may be relevant to your participation.",
+    "When you “connect” with us on social media, we may collect your account or profile information. You can choose to log in, or sign up for the service with Facebook or other social networking services. When you link your social media account, we collect personal data that you have given access to on your social profile. For example, when you log in with your Facebook login information, you give permission for us to collect personal data from your Facebook profile, which is subject to Facebook's terms and conditions, such as your email address. If you do not wish to provide us with this information, you will need to change your settings on your social network profile.",
+    "When you interact with our services, we collect information about your usage behavior on the platform. We automatically collect log data and device information. We use cookies and other similar technologies. SubReader collects information related to your payments through the SubReader platform. This information is necessary to maintain the contract between you and SubReader."
+  ],
+  "4-2": {
+    "heading": "1. How we use your personal information",
+    "p1": "We use your data to manage our business, market and improve our platform, develop new services and give you a more personal experience when you interact with us. We also use your information to communicate with you.",
+    "p2": "We use your information for the following:",
+    "list": [
+      "Manage our business and run our services. We use your personal data to create and manage your personal account on SubReader, as well as manage your orders.",
+      "Personalize your experience on our services, better understand our users and gain insight into usage. We use your personal information to make analyzes that can improve the functionality of the service. We may use your interactions with the platform, your purchase history and preferences, as well as similar information that you send to the SubReader platform.",
+      "Communicate with you and answer your requests. When you register with us, you give permission for us to communicate with you via e-mail or push notifications. For this we may use your personal information to be able to communicate with you about SubReader products or services that you have purchased or to inform you about other products, campaigns or services that we think you may be interested in. You can always control it way we communicate with you in your account preferences on the website. We also use your personal information to provide technical support / assistance on the platform. This includes access to your SubReader account, to address technical queries. We may send you emails, even if you have opted out, regarding updates to our Terms and Conditions, as well as terms of trade.",
+      "Personalize our advertising and marketing. We use your personal information and other information to send advertising / marketing campaigns that give you information about the products we think are most relevant to you. Given that you have given us permission to send you messages for marketing and advertising, or other information, we use your preferences and information (including on social media) to send messages with content that we think is best for you . You always have the opportunity to unsubscribe from all types of marketing material from SubReader."
+    ]
+  },
+  "4-3": {
+    "heading": "1.1. Where is your personal data stored",
+    "p1": "SubReader uses a number of different third-party service providers to help us offer services related to the SubReader platform. These service providers may be located within or outside the European Economic Area (“EEA”). Any transfer of your personal data will be done in accordance with the relevant laws.",
+    "p2": "These service providers will only have limited access to your data, in order to perform tasks on our behalf and are contracted and bound to protect and use the data only for the agreed purpose, and which complies with these conditions. We have previously taken the necessary steps to share your data with third parties to ensure an appropriate level of data protection. This could be based on the EU model clauses. (a series of clauses issued by the European Commission)."
+  },
+  "4-4": {
+    "heading": "1.2. How long is your personal data stored",
+    "p1": "SubReader stores your data as long as you have an account with us, or need to use our services. We also retain and use your data as necessary to comply with our legal guidelines and resolve disputes."
+  },
+  "4-5": {
+    "heading": "1.3. Who is responsible for your personal data",
+    "p1": "SubReader ApS is the data processor for the data you send to us, and is responsible for the data."
+  },
+  "4-6": {
+    "heading": "1.4. Who has access to your personal data",
+    "p1": "Your data may be shared in SubReader ApS, and its subsidiaries / affiliates, which are related to normal ownership or control. We never send, sell or exchange your data for marketing initiatives to third parties outside the SubReader ApS group. Data transmitted to third parties is used exclusively to provide the above services, for example media services and agencies for distribution of newsletters, credit references or for the purpose of making a credit assessment, identity check and debt collection."
+  },
+  "4-7": {
+    "heading": "1.5. How do we protect your data",
+    "p1": "We have used technical and organizational processes to protect your data from being lost, tampered with or accessed unauthorized. We continue to incorporate initiatives that follow technological developments. To make payment with us as easy as possible, we use encrypted forms. This means that your information is sent through a secure connection and that external partners cannot access your personal data. When paying by card, we work with payment acquirers who help us check directly with your bank that your card has been validated for purchase. Our payment redeemers process your card information in accordance with the international security standard PCI DSS, which has been developed by the payment card companies VISA, MasterCard, Diners, American Express and JCB. This means that your payment card is treated with a very high level of security. When you pay by card, we reserve the right to perform an identity check."
+  },
+  "4-8": {
+    "heading": "1.6. Requestion deletion of data",
+    "p1": "If you wish to delete your data, please contact kontakt@subreader.dk"
+  }
+}

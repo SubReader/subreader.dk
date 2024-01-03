@@ -1,0 +1,15 @@
+export { default as Checkmark } from "./Checkmark";
+export { default as Logo } from "./Logo";
+export { default as Quote } from "./Quote";
+export { default as Phone } from "./Phone";
+export { default as Tv } from "./Tv";
+export { default as Ticket } from "./Ticket";
+export { default as Email } from "./Email";
+export { default as SMS } from "./SMS";
+export { default as Facebook } from "./Facebook";
+export { default as Google } from "./Google";
+export { default as Apple } from "./Apple";
+export { default as MinusCheckmark } from "./MinusCheckmark";
+export { default as MessagesIcon } from "./MessagesIcon";
+export { default as Mail } from "./Mail";
+export { default as BurgerMenu } from "./BurgerMenu";

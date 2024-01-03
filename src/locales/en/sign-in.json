@@ -1,0 +1,37 @@
+{
+  "seoTitle": "Sign in",
+  "seoDescription": "Here you can Sign in/up with your SubReader account and start getting subtitles read aloud with your phone.",
+  "continue": {
+    "divider": "or",
+    "sms": "Continue with SMS",
+    "email": "Continue with Email",
+    "facebook": "Continue with Facebook",
+    "google": "Continue with Google"
+  },
+  "terms": {
+    "content": "By continuing, you accept ours",
+    "span": "Terms and Conditions",
+    "href": "https://subreader.co.uk/terms/"
+  },
+  "phone": {
+    "seoTitle": "Enter Phone",
+    "title": "Enter phone number",
+    "button": "Continue",
+    "verificationReminder": "Enter the code you received via SMS"
+  },
+  "email": {
+    "seoTitle": "Enter Email",
+    "placeholder": "your@email.com",
+    "title": "Enter email",
+    "button": "Continue",
+    "verificationReminder": "Enter the code you received in your Email"
+  },
+  "verification": {
+    "button": "Confirm"
+  },
+  "name": {
+    "seoTitle": "Enter Name",
+    "title": "Enter name",
+    "button": "Create an account"
+  }
+}

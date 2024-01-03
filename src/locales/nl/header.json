@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "index": "Home",
+    "faq": "Veelgestelde vragen",
+    "bio": "Bioscopen",
+    "schools": "Scholen",
+    "get-started": "Aan de slag",
+    "account": "Mijn account",
+    "log-out": "Uitloggen"
+  },
+  "trial-btn": "Download nu"
+}

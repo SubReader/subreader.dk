@@ -1,0 +1,50 @@
+{
+  "seoTitle": "SubReader Kinoer",
+  "cinema": {
+    "heading": "SubReader Kinoer"
+  },
+  "StarterPackage": {
+    "heading": {
+      "content": "Startpakke for kinoer",
+      "span": "Her vil det være mulig å finne og laste ned materiale som kan hjelpe din kino med å komme godt i gang som dysleksivennlig."
+    },
+    "list": {
+      "graphic": {
+        "imageAlt": "Grafisk materiale for kinoer",
+        "heading": "Grafisk materiale",
+        "content": "Ved kjøp av SubReader-systemet følger det med diverse grafisk materiale som kan brukes i kinoen. Dette inkluderer blant annet bannere, flyers, videoer til lerret/skjermer mm.",
+        "buttonText": "Last ned grafisk materiale"
+      },
+      "operator": {
+        "imageAlt": "Operatørmateriale for kinoer",
+        "heading": "Operatørmateriale",
+        "content": "For å komme i gang med SubReader finnes det en rekke materiale til operatøren. Dette inneholder bl.a. velkomstbrev, guider, FAQ og feilsøkningsdokument. Materialet er individuelt for kinoen og sendes over mail.",
+        "buttonText": "Hent operatør-materiale"
+      },
+      "some": {
+        "imageAlt": "SoMe-materiale for kinoer",
+        "heading": "SoMe-materiale",
+        "content": "Dette materialet kan kinoen bruke til å markedsføre seg med SubReader i sosiale medier. Det inneholder eksempler på oppslag og reklamer som kan brukes f.eks. på Facebook."
+      },
+      "pressMaterial": {
+        "imageAlt": "Pressemateriale for kinoer",
+        "heading": "Pressemateriale",
+        "content": "Mediene er veldig glade i SubReader og kinoen din vil uten tvil kunne utnytte lokale medier i forbindelse med lansering. Her kan du finne materiale til bruk i forbindelse med pressen."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Kontakt oss og hør mer om SubReader",
+    "name": "Ditt navn",
+    "email": "Din e-post",
+    "phone": "Ditt telefonnummer",
+    "subject": "Emne",
+    "message": "Din melding",
+    "success": "Din e-post er sendt!",
+    "spam": "Du må vente 10 minutter før du kan sende igjen.",
+    "buttonText": "Send",
+    "fieldRequired": "Feltet er obligatorisk",
+    "emailValidation": "E-postadresse er ikke gyldig",
+    "phoneValidation": "Minst 8 tall"
+  }
+}

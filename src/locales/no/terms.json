@@ -1,0 +1,96 @@
+{
+  "seoTitle": "Vilkår og betingelser",
+  "seoDescription": "Her kan du lese mer om vilkår og betingelser gjeldende SubReader hjemmeside og appen.",
+  "title": "Vilkår og betingelser",
+  "1": {
+    "heading": "1. INTRODUKSJON",
+    "p1": "Denne appen utgis av SubReader ApS, {{CVR}} med adresse på {{address}} (“Selskabet”).",
+    "p2": "Ved benyttelse av appen: “SubReader” (“Appen”) erklærer du deg indforstått med å være bundet av følgende vilkår og betingelser (“Vilkår”). Har du spørsmål i forbindelse med korrekt bruk av Appen bes du kontakte oss som angitt i paragraf 5 i disse Vilkår. Hvis du ikke er innforstått med disse vilkår og betingelser bes du øyeblikkeligt opphøre videre bruk av Appen.",
+    "p3": "SubReader forbeholder seg retten til, til hver en tid, å endre i Vilkårene for bruk av Appen med øyeblikkelig etterfølgende virke."
+  },
+  "2": {
+    "heading": "2. GENERELLE REGLER FOR BRUK AV APPEN",
+    "p1": "Appen skal ikke brukes til kommersielt bruk uten skriftlig tillatelse fra Selskapet. Appen skal ikke brukes på ulovlig vis, eller på noen måte oppfordre til ulovlig aktivitet eller urettmessige formål. Ved bruk av Appen skal all gjeldende dansk lovgivning og internasjonalt gjeldende lover overholdes herunder lover gjeldende i ditt hjemland (samlet betegnet som “Gjeldende Lover”).",
+    "p2": "Utover dette erklærer du deg innforstått med å ikke:",
+    "list": [
+      "Prøve å oppnå uautorisert adgang til Appen, nettverk, servere eller datasystemer forbundet med Appen",
+      "Prøve å endre, tilpasse, oversette eller foreta reverse engineering av Appen og tilknyttede softwaresystemer assosiert med SubReader eller integrerte plattformer."
+    ],
+    "p3": "Du erklærer deg også innforstått med fullt ut og etter påkrav å godtgjøre Selskapet og tilknyttede Medietjenester for alle tap, skader, omkostninger og utgifter disse måtte lide som direkte eller indirekte følge av din bruk av Appen i uoverensstemmelse med disse Vilkår eller Gjeldende Lover."
+  },
+  "3": {
+    "heading": "3. MATERIALE OG INNHOLD",
+    "p1": "Opphavsretten til innholdet i Appen herunder bilder, lyd, kildekode, grafikk og oppsetting herav, samt annet materiale (“Materiale”) eies av Selskapet. Alle rettigheter forbeholdes. Materialet kan brukes til egen personlig bruk eller til demonstrering av Appens funksjonaliteter, men kan ikke kopieres, videredistribueres, redigeres, endres, oversettes eller kommersielt utnyttes uten uttrykkelig tillatelse fra Selskapet.",
+    "p2": "Som bruker av appen er du selv ansvarlig for å være innforstått med og overholde betingelser og vilkår for bruk av medietjenesten til levering av multimedieinnhold (“Medietjenesten”), som du benytter Appen til. Selskapet fraskriver seg ansvaret for dine eventuelle overtredelser av Medietjenestens vilkår og betingelser."
+  },
+  "4": {
+    "heading": "4. PERSONDATA OG MARKEDSFØRING",
+    "p1": "Ved opprettelse av bruker med assosierte opplysninger: navn, e-mail og fødselsdato (videre betegnet som “Brukerdata”) erklærer du din aksept for følgende bruk av dine Brukerdata samt opplysninger rundt din bruk av Appen, bestående av tidspunkter for bruk og opplysning av Medietjenesten (“Bruksdata”):",
+    "list": [
+      "Selskapet og tilknyttede Medietjenester kan sende nyhedsbrev med oppdateringer ift. bruk av Appen til e-mail adressen i din Brukerdata.",
+      "Selskapet og tilknyttede Medietjenester kan benytte Bruksdata forbundet med brukeren til markedsføringskampanjer, systemforbedringer og optimering av brukeropplevelsen.",
+      "Selskapet kan benytte din Brukerdata i forbindelse med markedsføringskampanjer for tredjeparter ift. utbredelse av understøttelse på andre Medietjenester"
+    ]
+  },
+  "4-1": {
+    "heading": "4.1. Hvilke personlige opplysninger innsamler vi",
+    "p1": "Vi innsamler informasjon for å gi deg muligheten for oppleste undertekster. Dette betyr at vi innsamler både personlig informasjon og “annen” informasjon.",
+    "list": [
+      "Informasjon du gir til oss: Når du oppretter en konto hos oss registrerer vi kontodetaljer; For eks. navn, e-mail adresse, passord, og land. Vi registerer muligvis også din plassering.",
+      "Informasjon vi automatisk henter når du bruker SubReader: Når du bruker SubReader registrer vi en rekke opplysninger automatisk, herunder personlig informasjon og informasjon om hvordan du bruker tjenesten. Denne informasjonen er nødvendig for at vi kan sørge for den beste kommunikationen mellom deg som bruker og oss som firma.",
+      "Når du deltar i undersøkelser, konkurranser eller giveaways innsamler vi kontaktdata, demografi og informasjon om berettigelse. Vi sponsorerer muligvis konkurranser, giveaways eller andre tilbud hvor vi kanskje krever at du gir oss din personlige data; navn, e-mail adresse, telefonnummer og alder, samt annen informasjon som kan være relevant for din deltagelse.",
+      "Når du “connecter” med oss på sosiale medier innsamler vi muligvis din konto eller profil informasjon. Du kan velge å logge inn eller opprette deg på tjenesten med Facebook eller andre sosiale nettverk tjenester. Når du kobler din sosiale medie konto, innsamler vi personlig data som du har gitt adgang til på din sosiale profil. For eksempel når du logger inn med dine Facebook innloggingsopplysninger gir du tillatelse til at vi innsamler personlig data fra din Facebook profil, og som hører under Facebooks handelsbetingelser, som din E-mail adresse. Hvis du ikke ønsker å gi oss denne informasjonen blir du nødt til å endre innstillingene dine på din sociale medie profil.",
+      "Når du interagerer med våre tjenester innsamler vi informasjon om din brukeradferd på plattformen. Vi innsamler automatisk logg data og enhetsinformasjon. Vi bruker cookies og andre lignende teknologier. SubReader innsamler informasjon i forbindelse med dine betalinger gjennom SubReader plattformen. Denne informasjonen er nødvendig for å opprettholde kontrakten mellom dig og SubReader."
+    ]
+  },
+  "4-2": {
+    "heading": "4.2. Hvordan bruker vi dine personlige opplysninger",
+    "p1": "Vi benytter dine data til å styre forretningen vår, markedsføre og forbedre plattformem, utvikle nye tjenester og gi deg en mer personlig opplevelse når du interagerer med oss. Vi bruker også din informasjon til å kommunikere med deg.",
+    "p2": "Vi bruker din informasjon til følgende:",
+    "list": [
+      "Styre forretningen vår og kjøre tjenesten vår. Vi bruker din personlige data til å opprette og håndtere din personlige konto på SubReader, samt håndtere dine ordre.",
+      "Personliggjøre din opplevelse på vår tjeneste, bedre forstå våre brukere og få bruksinnsikt. Vi bruker din personlige informasjon til å lage analyser som kan forbedre funksjonaliteten av tjenesten. Vi benytter muligvis dine interaksjoner med plattformen, din kjøpshistorikk og preferanser, samt lignende informasjon som du sender til SubReader plattformen.",
+      "Kommunisere med deg og besvare dine forespørsler. Når man oppretter seg hos oss gir man tillatelse til at vi kan kommunisere med deg via E-mail eller push-varsler. Til dette benytter vi muligvis dine personlige opplysninger for å kunne kommunisere med deg om SubReader produkter eller tjenester som du har kjøpt eller til å informere deg om andre produkter, kampanjer eller tjenester som vi tror du kan ha interresse av. Du kan alltid styre den måten vi kommuniserer med deg i din kontos preferanser på hjemmesiden. Vi bruker også dine personlige opplysninger til å yte teknisk support/assistanse på plattformen. Dette inkluderer adgang til din SubReader-konto for å adressere tekniske forespørsler. Vi sender deg muligvis E-mails, selv om du har fravalgt dette, om oppdateringer av våre vilkår og betingelser samt handelsbetingelser.",
+      "Personliggjøre våre reklamer og markedsføring. Vi benytter din personlige informasjon og annen informasjon til å sende reklame/markedsføringskampanjer som gir deg informasjon om de produktene vi tenker er mest relevante for deg. Gitt at du har gitt oss lov til å sende deg meldinger med henblikk på markedsføring og reklame, eller annen informasjon, så benytter vi dine preferanser og opplysninger (blandt annet på sosiale medier) til å sende meldinger med innhold som vi tenker passer best til deg. Du har alltid mulighet til å avmelde deg alle former for markedsføringsmateriale fra SubReader."
+    ]
+  },
+  "4-3": {
+    "heading": "4.3. Hvor er dine personopplysninger gjemt",
+    "p1": "SubReader benytter en rekke forskjellige tredjeparts tjenestetilbydere til å hjelpe oss med å tilby tjenester relatert til SubReaders plattform. Disse tjenestetilbyderne kan være lokalisert innenfor eller utenfor det Europeiske Økonomiske Samarbeidsområde (“EØS”). Enhver form for flytting av dine personlige opplysninger vil bli gjort i samsvar med relevante lover.",
+    "p2": "Disse tjenestetilbyderne vil kun ha begrenset tilgang til dine opplysninger for å kunne utføre oppgaver på våre vegne og er med kontrakt bundet til å beskytte og utelukkende bruke opplysningene til det avtalte formål, og som er i overensstemmelse med disse betingelser. Vi har før vi deler din data med en tredjepart tatt de nødvendige forbehold for å sikre et passende nivå av databeskyttelse. Dette kunne være på basis av EU modellklausulene (en rekke klausuler utstedt av den Europeiske kommisjon)."
+  },
+  "4-4": {
+    "heading": "4.4. Hvor lenge er din personlige data gjemt",
+    "p1": "SubReader gjemmer din data så lenge du har en konto hos oss, eller har behov for å benytte deg av våre tjenester. Vi beholder og bruker også din data som nødvendig for å overholde de lovmessige rettningslinjer og løse konflikter."
+  },
+  "4-5": {
+    "heading": "4.5. Hvem er ansvarlig for din personlige data",
+    "p1": "SubReader ApS er databehandler på de opplysningene du sender til oss og er den ansvarlige for dataen."
+  },
+  "4-6": {
+    "heading": "4.6. Hvem har adgang til din personlige data",
+    "p1": "Din data kan bli delt i SubReader ApS, og tilhørende datter-/søsterselskap som er relateret ved normalt eierskap eller kontroll. Vi sender, selger eller bytter aldri din data for markedsføringsmessige tiltak til tredjepart utenfor SubReader ApS gruppen. Data som er vidersendt til tredjepart blir utelukkende brukt til å levere ovenstående tjenester, for eksempel medie tjenester og byråer for distribusjon av nyhetsbrev, kredittreferanser eller med det formål å lage en kredittvurdering, identitetssjekk og gjeldsinndrivelse."
+  },
+  "4-7": {
+    "heading": "4.7. Hvordan beskytter vi din data",
+    "p1": "Vi har tatt tekniske og organisatoriske prosesser i bruk for å beskytte din data mot å bli mistet, manipuleret eller tilgått uautorisert. Vi fortsetter med å innarbeide tiltak som følger den teknologiske utviklingen. For å gjøre betaling hos oss så enkel som mulig benytter vi krypterte formularer. Det betyr at dine opplysninger blir sendt gjennom en sikker forbindelse og at eksterne partnere ikke har tilgang til dine personlige data. Ved betaling med kort arbeider vi sammen med betalingsinnløsere som hjelper oss med å sjekke direkte hos din bank at ditt kort er validert til kjøp. Våre betalingsinnløsere behandler dine kortopplysninger i henhold til den internasjonale sikkerhetsstandard PCI DSS, som er utviklet av selskapene VISA, MasterCard, Diners, American Express og JCB. Det betyr at ditt betalingskort er behandlet på et veldig høyt sikkerhetsnivå. Når du betaler med kort, forbeholder vi oss rettigheten til å utføre en identitetssjekk."
+  },
+  "4-8": {
+    "heading": "4.8. Hva er dine rettigheter og muligheter for innvending",
+    "p1": "Du har rett til å få opplyst hvilke personopplysninger vi behandler om deg. Du kan dessuten til enhver tid innvende mot at opplysninger brukes. Du kan også trekke tilbake ditt samtykke til at de blir behandlet opplysninger om deg. Hvis de opplysningene som behandles om deg er feilaktige har du rett til at de blir rettet eller slettet. Henvendelse herom kan skje til:",
+    "p2": "Hvis du vil klage over vores behandling af dine personoplysninger, har du også mulighed for at tage kontakt til",
+    "email": "kontakt@subreader.no",
+    "link": {
+      "content": "Datatilsynet",
+      "href": "http://www.datatilsynet.dk/"
+    }
+  },
+  "5": {
+    "heading": "5. HENVENDELSER TIL SELSKAPET",
+    "p1": "Alle henvendelser og meldinger til Selskapet angående Appen skal skje ved bruk av følgende kontaktopplysninger:",
+    "email": "E-mail:",
+    "tlf": "Tlf: ",
+    "aps": "SubReader ApS",
+    "att": "Att. Support"
+  }
+}

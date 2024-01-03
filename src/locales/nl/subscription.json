@@ -1,0 +1,41 @@
+{
+  "success": {
+    "seoTitle": "Betaling afgerond",
+    "title": "Gefeliciteerd! Je hebt nu SubReader Plus. ",
+    "content": "Download SubReader op je telefoon en krijg toegang tot de wereld van films en series met voorgelezen ondertiteling. ",
+    "accountNotice": {
+      "part1": "Log in met je ",
+      "part2": "in de SubReader app!"
+    },
+    "facebook": "Facebook",
+    "email": "E-mail: {{email}}",
+    "google": "Google account",
+    "phone": "Telefoonnummer: {{phoneNumber}}",
+    "video-src": "https://www.youtube.com/embed/ymEWOxoHzyY"
+  },
+  "summary": {
+    "title": "Overzicht",
+    "binding": "Geen binding. Beëindig op elk gewenst moment.",
+    "paymentNotice": "Vandaag te betalen:",
+    "trialReminder": "Na 14 dagen:",
+    "monthly": "maand",
+    "yearly": "jaarlijks"
+  },
+  "monthly": {
+    "link": "Verander in een maandabonnement",
+    "seoTitle": "Maandabonnement",
+    "seoDescription": "Maak gebruik van gesproken ondertiteling bij je streamingdiensten met een SubReader Plus abonnement.",
+    "button": "Start de 14-daagse proefperiode"
+  },
+  "flow": {
+    "step1": "Creëer een gebruiker / log in",
+    "step2": "Start de proefperiode",
+    "step3": "Download SubReader"
+  },
+  "yearly": {
+    "link": "Bespaar {{percent}} met een jaarabonnement",
+    "seoTitle": "Jaarabonnement",
+    "seoDescription": "Maak gebruik van gesproken ondertiteling bij je streamingdiensten met een SubReader Plus abonnement.",
+    "button": "Start de 14-daagse proefperiode"
+  }
+}

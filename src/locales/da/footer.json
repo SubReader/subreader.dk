@@ -1,0 +1,19 @@
+{
+  "title": "En ny verden af underholdning",
+  "content": "SubReader er et ordblinde hjælpemiddel for børn og voksne for oplæsning af undertekster. Med SubReader åbner der sig en ny verden af underholdning. Nyd udenlandske film og serier med venner og familie på lige fod med alle andre. SubReader hjælper dig om du er dyslektiker, eller af andre grunde ikke kan læse undertekster.",
+  "quickLinks": [
+    {
+      "title": "Hurtige Links",
+      "links": [
+        {
+          "content": "Vilkår og betingelser",
+          "href": "/terms"
+        },
+        {
+          "content": "Privatlivspolitik",
+          "href": "/privacy"
+        }
+      ]
+    }
+  ]
+}

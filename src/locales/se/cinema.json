@@ -1,0 +1,50 @@
+{
+  "seoTitle": "SubReader Biografer",
+  "cinema": {
+    "heading": "SubReader i Biografer"
+  },
+  "StarterPackage": {
+    "heading": {
+      "content": "Startpaket för biografer",
+      "span": "Här är det möjligt att hitta och ladda ner material som kan hjälpa din biograf att bli dyslexivänlig."
+    },
+    "list": {
+      "graphic": {
+        "imageAlt": "Grafiskt material för biografer",
+        "heading": "Grafiskt material",
+        "content": "Vid köp av SubReader systemet medföljer det en en rad olika grafiska material som kan användas i biografen. Detta inkluderar bland annat banners, videor, flyers m.m.",
+        "buttonText": "Hämta grafiskt material"
+      },
+      "operator": {
+        "imageAlt": "Tekniska manualer för Biografer",
+        "heading": "Material till tekniker",
+        "content": "För att komma igång med SubReader finns en rad olika material som behövs för den tekniska delen. Detta innehåller bland annat manualer, frågor och svar, felsökningsdokument och välkomstbrev. Material som gäller för individuella biografer skickas via e-post.",
+        "buttonText": "Hämta tekniska material"
+      },
+      "some": {
+        "imageAlt": "SoMe Material för Biografer",
+        "heading": "SoMe material",
+        "content": "Detta material hjälper din biograf att marknadsföra sig med SubReader på sociala medier. Det innehåller exempel på inlägg och reklam som kan användas till exempel på Facebook."
+      },
+      "pressMaterial": {
+        "imageAlt": "Pressmaterial för Biografer",
+        "heading": "Pressmaterial",
+        "content": "Pressen är glada för SubReader och därför kan din biograf dra nytta av dem i förbindelse med lansering. Här kan du hitta material som kan användas i förbindelse med pressen."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Kontakta oss och hör mer om SubReader",
+    "name": "Ditt namn",
+    "phone": "Ditt telefonnummer",
+    "email": "Din e-post",
+    "subject": "Ämne",
+    "message": "Ditt meddelande",
+    "success": "Ditt mejl har skickats!",
+    "spam": "Du måste vänta i 10 minuter innan du kan skicka igen.",
+    "buttonText": "Skicka",
+    "fieldRequired": "Fältet är obligatoriskt",
+    "emailValidation": "Ogiltig e-postadress.",
+    "phoneValidation": "Minst 8 tal"
+  }
+}

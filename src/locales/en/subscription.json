@@ -1,0 +1,41 @@
+{
+  "success": {
+    "seoTitle": "Payment successful",
+    "title": "Congratulations, you now have SubReader Plus!",
+    "content": "Download SubReader to your phone and access a world of movies and series with read-out subtitles.",
+    "accountNotice": {
+      "part1": "Log in with your ",
+      "part2": "in the SubReader app! "
+    },
+    "facebook": "Facebook",
+    "email": "Email account: {{email}}",
+    "google": "Google Account",
+    "phone": "Phone Account: {{phoneNumber}}",
+    "video-src": "https://www.youtube.com/embed/ymEWOxoHzyY"
+  },
+  "summary": {
+    "title": "Overview ",
+    "binding": "No binding. Cancel at any time.",
+    "paymentNotice": "Today you pay:",
+    "trialReminder": "After 14 days: ",
+    "monthly": "monthly",
+    "yearly": "yearly"
+  },
+  "monthly": {
+    "link": "Switch to monthly subscription",
+    "seoTitle": "Monthly subscription",
+    "seoDescription": "Start having your subtitles read aloud across streaming services with a SubReader Plus subscription.",
+    "button": "Start 14 days trial"
+  },
+  "flow": {
+    "step1": "Register / Login",
+    "step2": "Create trial",
+    "step3": "Download SubReader"
+  },
+  "yearly": {
+    "link": "Save {{percent}} with annual subscription",
+    "seoTitle": "Annual subscription",
+    "seoDescription": "Start having your subtitles read aloud across streaming services with a SubReader Plus subscription.",
+    "button": "Start 14 days trial"
+  }
+}

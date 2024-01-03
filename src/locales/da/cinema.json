@@ -1,0 +1,50 @@
+{
+  "seoTitle": "SubReader Biografer",
+  "cinema": {
+    "heading": "SubReader Biografer"
+  },
+  "StarterPackage": {
+    "heading": {
+      "content": "Startpakke for biografer",
+      "span": "Her vil det være muligt at finde og downloade materialer, der vil hjælpe din biograf, med at komme godt igang som værende ordblindevenlig."
+    },
+    "list": {
+      "graphic": {
+        "imageAlt": "Grafisk Materiale for Biografer",
+        "heading": "Grafisk materiale",
+        "content": "Ved køb af SubReader systemet, medfølger der en række grafisk materiale som kan bruges i biografen. Dette inkluderer blandt andet bannere, videoer til lærrede/skærme, flyers mm.",
+        "buttonText": "Hent grafisk materiale"
+      },
+      "operator": {
+        "imageAlt": "Operatør Materiale for Biografer",
+        "heading": "Operatør materiale",
+        "content": "For at komme igang med SubReader, er der en række materialer operatøren skal have. Dette indeholder blandt andet guides, FAQ, fejlfindingsdokument og velkomstbrev. Materiale individuelt for biografen, sendes pr mail.",
+        "buttonText": "Hent operatør materiale"
+      },
+      "some": {
+        "imageAlt": "SoMe Materiale for Biografer",
+        "heading": "SoMe materiale",
+        "content": "Dette materiale, vil gøre din biograf i stand til at markedsføre sig med SubReader på de sociale medier. Det indeholder eksempler på opslag og reklamer der kan bruges på for eksempel Facebook."
+      },
+      "pressMaterial": {
+        "imageAlt": "Pressemateriale for Biografer",
+        "heading": "Pressemateriale",
+        "content": "Medierne er meget glade for SubReader, og derfor vil din biograf uden tvivl kunne drage nytte af medierne i forbindelse med lanceringen. Her kan du finde det fornødne materiale til brug i forbindelse med pressen."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Kontakt os, og hør mere om SubReader",
+    "name": "Dit navn*",
+    "email": "Din e-mail*",
+    "phone": "Dit telefonnummer",
+    "subject": "Emne*",
+    "message": "Din besked*",
+    "success": "Din email er sendt!",
+    "spam": "Du skal vente 10 minutter før du kan sende igen.",
+    "buttonText": "Send",
+    "fieldRequired": "Feltet er påkrævet",
+    "emailValidation": "Email adresse er ikke gyldig",
+    "phoneValidation": "Minimum 8 tal"
+  }
+}

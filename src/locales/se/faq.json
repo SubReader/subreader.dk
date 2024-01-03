@@ -1,0 +1,173 @@
+{
+  "seoTitle": "Frågor och svar",
+  "seoDescription": "Här kan du hitta svar på alla dina frågor om SubReader hemsidan och appen. Läs mer här! ",
+  "general": {
+    "heading": "Generella frågor",
+    "q1": {
+      "title": "Vem kan använda SubReader?",
+      "p1": "SubReader kan användas av alla som har svårt att läsa undertexter. SubReaders uppläsning av undertexter gör det mer avslappnande att se film och serier. SubReader är ett hjälpmedel som gör att alla kan följa med på samma villkor oavsett om du har dyslexi, har lässvårigheter, har en synnedsättning eller inte har lärt dig att läsa undertexter ännu."
+    },
+    "q2": {
+      "title": "Hur laddar jag ner SubReader?",
+      "p": "Du kan ladda ner SubReader appen till iOS på <0>{{apple}}</0> eller till Android på <1>{{google}}</1>"
+    },
+    "q3": {
+      "title": "Vilken enhet ska jag ladda ner SubReader på?",
+      "p1": "Du ska ladda ner Subreader på din telefon eller läsplatta eftersom det är här som undertexterna kommer läsas högt. Du behöver INTE ladda ner SubReader på den enhet som du ser filmen på, t.ex. din Smart TV eller dator."
+    },
+    "q4": {
+      "title": "Hur skapar jag en användare?",
+      "p1": "Efter att du har hämtat och öppnat appen ska du välja hur du vill fortsätta din inloggning. Här kan du välja att fortsätta med SMS, E-post, Apple, Facebook, Google och inloggning i skolan. Beroende på vilken inloggningsmöjlighet du väljer får du en verifikationskod skickad för att bekräfta, detta gäller bara SMS och e-post. Du har nu tillgång till SubReader appen och kan använda den i biografen eller i skolan. Här kan du söka efter filmer och serier. För att få fri tillgång till alla röster och undertexter på streamingtjänsterna behöver du köpa ett SubReader Plus abonnemang."
+    },
+    "q5": {
+      "title": "Vad är skillnaden mellan att skapa en användare och att ha ett SubReader Plus abonnemang?",
+      "p1": "Att skapa en användare betyder att du får en användarprofil i appen. Detta kostar inte pengar och du behöver inte uppge någon betalningsinformation. Om du har en användare men inte ett abonnemangkan du använda appen i biografen och till public service kanaler som DR TV.",
+      "p2": "Önskar du däremot att på upplästa undertexter på streamingtjänsterna så som <strong>Netflix</strong>, <strong>C More</strong>, <strong>Viaplay</strong>, <strong>Disney+</strong> och <strong>HBO</strong> m.m. så ska du köpa ett SubReader Plus abonnemang som kostar <strong>{{monthly}}/månad</strong> eller <strong>{{yearly}} årligt.</strong>"
+    },
+    "q6": {
+      "title": "Vad är dyslexi och vem har det?",
+      "p1": "Det är ofta många frågor som uppstår när man får veta att man själv har eller någon man håller kär har dyslexi. För många upptäcks dyslexi redan i tidig ålder då läs- och skrivsvårigheter blir tydliga när man börjar skolan. Men för andra upptäcks dyslexin först långt senare och det kan vara en utmaning att följa med i undervisning och underhållning som alla andra utan att man förstår varför. Dyslexi är ofta ärftligt och därför finns det ibland flera i familjen som är dyslektiker. Viktigt att notera är att dyslexi inte har någon koppling till intelligens utan kan hänvisas till en neurologiskt förankrad funktionsnedsättning i språkets fonologiska komponent. Dyslektiker kan behöva mer tid för att läsa texter. Det gör till exempel att när undertexter på film spelas upp så hinner hjärnan inte arbeta med texten för att förstå vad det står innan nya undertexter blir visade och därmed kan det vara svårt att följa med i undertexter på film.",
+      "p2": "5-8% av Sveriges befolkning beräknas ha dyslexi, det betyder att det finns runt en halv miljon eller fler personer som är dyslektiker bara i Sverige. Alla har dock olika förutsättningar och är olika bra på att stava eller läsa. Det finns många olika hjälpmedel för dyslexi och nuförtiden finns även många appar för dyslektiker. Det underlättar i vardagen och skapar bättre förutsättningar för personer med dyslexi."
+    },
+    "q7": {
+      "title": "Vad innebär lässvårigheter?",
+      "p1": "Läs- och skrivsvårigheter kan bero på annat än dyslexi. Att följa med i text och stava rätt kan vara svårt om du har synnedsättning eller annan funktionsnedsättning. Det kan också bero på språklig understimulering, språkstörning eller bristande undervisning. Har man dessutom inte svenska som modersmål kan kulturella skillnader och språkliga krockar göra att man har svårt att följa med i texter. Sammantaget finns det därför flera olika anledningar till varför ett barn, ungdom eller vuxen har svårt att följa med i textremsor på film och serier."
+    },
+    "q8": {
+      "title": "Vad är extra utmanande när man är dyslektiker och hur kan man få hjälp med dyslexi?",
+      "p1": "Som dyslektiker kan det ta emot att läsa mycket text. Det tar tid att få texten att hänga ihop eller så läser man fel vilket gör att man inte förstår hela textens sammanhang. Det kan också uppfattas som att bokstäverna hoppar runt i meningarna eller som att texten blir suddig och oklar på textsidan. Därför är det också svårt att följa med i text som måste läsas snabbt, till exempel som att läsa undertexter på film som snabbt ändras och går vidare till en ny mening. Det gör det också utmanande att delta i vissa sociala sammanhang såsom biografbesök eller filmkväll med vännerna. Det gör att många med dyslexi riskerar att känna sig utanför när nya filmer och serier diskuteras mellan familj och vänner, utländska filmer som de inte kan läsa undertexterna till. Många dyslektiker lär sig engelska precis som alla andra och kan därför hänga med i filmer på engelska trots att de inte kan läsa undertexter.",
+      "p2": "Det finns många hjälpmedel i form av datorprogram, läslinjaler men också appar. En del hjälpmedel understöds av kommuner och skolor medan andra får köpas privat. En logoped kan hjälpa dig att välja bra hjälpmedel för din dyslexi och kan rekommendera vilka verktyg som passar just dig. Du kan också själv söka på internet efter dyslexihjälpmedel. Eftersom det nu finns många appar för dyslexi är det oftast lätt att prova lite olika och se vilka som du gillar bäst."
+    },
+    "q9": {
+      "title": "Vad betyder ordblind eller att man har ordblindhet?",
+      "p1": "Kanske har du hört ordet ordblindhet tidigare och undrat vad det betyder och om det är samma sak som dyslexi. Att vara ordblind eller ha ordblindhet är samma sak som att vara dyslektiker eller ha dyslexi. Ordblind är en term som myntades på 1870-talet då läkare började uppmärksamma lässvårigheter hos vuxna. Teorin var att lässvårigheter berodde på synproblem och därmed uppfattade läkarna att man var blind för ord. Ungefär 20 år senare konstaterade ögonläkare att det inte berodde på synfel utan något i hjärnan som påverkade hur man uppfattade ord. Sedan dess har ordet dyslexi varit mest förekommande."
+    }
+  },
+  "school": {
+    "heading": "SubReader School",
+    "q1": {
+      "title": "Hur kan min skola få SubReader?",
+      "p1": "Om du vill veta mer om SubReader School eller få installerat SubReader på din skola kan du kontakta våra kollegor på Vitec MV, som är ansvariga för SubReader School. De kan informera om pris och installation. Kontakta Nicolina på Vitec här: <0>{{email}}</0> eller på telefon <2>{{phoneLink}}</2>.",
+      "p2": "Önskar du som förälder att ditt barns skola ska erbjuda SubReader School och uppläsning av undertexter i undervisningen så kan du be en lärare eller skolföreståndare att kontakta oss. Vi kan berätta mer om hur skolan kan få tillgång till SubReader: kontakt@subreader.se.",
+      "email": "nicolina.lottsfeldt@vitecsoftware.com",
+      "phone": {
+        "content": "040-939150",
+        "link": "040-939150"
+      }
+    },
+    "q2": {
+      "title": "Ska eleven ha ett SubReader abonnemang för att kunna använda SubReader i skolan?",
+      "p1": "En elev ska inte ha ett abonnemang för att kunna använda SubReader i skolan eftersom skolan/kommunen står för inköp av SubReader lösningen. Eleven kan använda sin vanliga inloggning i skolan, givet att skolan har enSubReader skollicens.",
+      "p2": "OBS: SubReader Plus abonnemang ger inte tillgång till upplästa undertexter i undervisningen. För uppläsning på t.ex. UR-Play samt Film och Skola krävs en SubReader School licens."
+    },
+    "q3": {
+      "title": "Kostar det pengar för eleven att använda SubReader School?",
+      "p1": "Eleven behöver inte betala för att använda SubReader som hjälpmedel i skolan. Skolan behöver dock en licens som eleven kan använda genom sin inloggning i skolan."
+    },
+    "q4": {
+      "title": "Hur kan jag logga in på SubReader School?",
+      "p1": "När du startar appen är det möjligt att logga in med sitt vanliga konto i skolan. Du ska trycka på “Fortsätt med inloggning till skola” längst ner på sidan med inloggningsmöjligheter. Lärarna måste också installera ett Google Chrome tillägg och logga in med deras inloggning till skolan. Fungerar endast om skolan har köpt en SubReader School licens."
+    },
+    "q5": {
+      "title": "Kräver det extra utrustning för att använda SubReader i skolan?",
+      "p1": "Nej, det är enkelt att integrera SubReader i skolan. Det enda som behövs för att komma igång är ett Google Chrome tillägg som kan laddas ner efter att skolan har köpt en licens. Om du behöver hjälp med att installera SubReader School kan du kontakta våra samarbetspartners på Vitec-MV: <0>{{email}}</0> eller telefon <2>{{phoneLink}}</2>.",
+      "email": "nicolina.lottsfeldt@vitecsoftware.com",
+      "phone": {
+        "content": "040-939150",
+        "link": "040-939150"
+      }
+    }
+  },
+  "bio": {
+    "heading": "SubReader Cinema",
+    "q1": {
+      "title": "Hur använder jag SubReader i biografen?",
+      "p1": "För att använda Subreader i biografen ska du ladda ner appen på din telefon och skapa en användare. Innan du går in i salen för att hitta din plats ska du scanna QR-koden som hänger utanför dörren. Appen kommer automatiskt att läsa undertexterna när filmen börjar. Kom ihåg att ta med hörlurar så att du kan höra och följa med i undertexterna i filmen, samt stäng av ljudet och släck skärmen så att du inte stör andra."
+    },
+    "q2": {
+      "title": "Kostar det pengar att använda SubReader i biografen?",
+      "p1": "Det är gratis att använda SubReader i biografen."
+    },
+    "q3": {
+      "title": "Ska jag skapa en användare för att kunna använda SubReader i biografen?",
+      "p1": "Ja. Du ska skapa en användare i appen, men du behöver inte köpa ett SubReader Plus abonnemang."
+    },
+    "q4": {
+      "title": "Ska jag ha ett SubReader Plus abonnemang för att använda SubReader i biografen?",
+      "p1": "Nej, du behöver inte köpa ett SubReader abonnemang för att använda appen i biografen. Däremot ska du skapa en användare."
+    },
+    "q5": {
+      "title": "Varför kan jag inte använda SubReader appen i min lokala biograf?",
+      "p1": "Om du inte kan använda appen i din lokala biograf betyder det att biografen inte har systemet installerat. Vi upplever ofta att biografer är snabba med att installera SubReader när de hör från deras kunder att detta är ett önskemål, så fråga gärna din biograf om du är osäker på om de har SubReader eller inte.",
+      "p2": "Biografägare kan kontakta oss på ",
+      "link": "isabelle@subreader.se"
+    },
+    "q6": {
+      "title": "Hur kan jag veta om min lokala biograf har SubReader?",
+      "p1": "Inne i SubReader appen kan du se en karta över vilka biografer som har installerat SubReader. Här kan du också söka på din lokala biograf för att se om de erbjuder SubReader. Om du är osäker kan du alltid fråga din biograf om de erbjuder upplästa undertexter med SubReader. Om de inte har SubReader får du gärna hänvisa till oss så tar vi det vidare."
+    },
+    "q7": {
+      "title": "Behöver jag någon extra utrustning för att kunna använda SubReader i biografen?",
+      "p1": "Det enda du behöver för att få undertexterna upplästa i biografen är din telefon eller läsplatta/iPad med appen installerad och ett par hörlurar."
+    },
+    "q8": {
+      "title": "Kan jag använda SubReader i biografen oavsett vilket språk som filmen är på?",
+      "p1": "SubReader fungerar oavsett vilket talspråk som är i filmen. Men för att synkronisera ska talat språk vara satt till originalspråket."
+    },
+    "q9": {
+      "title": "Ska jag ha internet för att använda SubReader i biografen?",
+      "p1": "När du ser film i biografen med SubReader är det viktigt att du antingen har 3G/4G signal på din telefon eller är kopplad till biografens wifi - fråga personalen i biografen om du behöver inloggning. Vi gör er uppmärksamma på att SubReader använder väldigt lite data och därför behöver du inte vara rädd för att vi förbrukar all din data."
+    }
+  },
+  "plus": {
+    "heading": "SubReader Plus",
+    "q1": {
+      "title": "Vad är SubReader Plus?",
+      "p1": "SubReader Plus är ett abonnemang som ger dig tillgång till uppläsning av undertexter på de största streamingtjänsterna så som <strong>Netflix</strong>, <strong>Disney+</strong> och <strong>Viaplay</strong>",
+      "p2": "Med ett SubReader Plus abonnemang har du fri tillgång till alla våra röster som är gjorda med artificiell intelligens. Vid uppläsning av undertexter kommer dina undertexter automatiskt synkroniseras med dina filmer och serier. SubReader Plus gör det enkelt och avslappnande att följa med i filmoch serier som alla andra, oavsett om du har dyslexi, har synnedsättning eller har andra lässvårigheter som gör det svårt att följa med i undertexterna i filmen."
+    },
+    "q2": {
+      "title": "Vad kostar SubReader Plus?",
+      "p1": "Ett månadsabonnemang kostar <strong>{{monthly}}/månaden</strong>.  Månadsabonnemanget drar pengar från ditt konto en gång i månaden. Ett årligt abonnemang kostar bara <strong>{{yearly}}/året</strong> och därmed sparar du upp till <strong>{{discount}}</strong>. Det årliga SubReader Plus abonnemanget betalas bara en gång om året. Du kan se de olika SubReader priserna inne i appen eller på hemsidan. Det är ingen bindningstid på SubReader abonnemangen så därför kan de alltid avslutasinnan en ny betalningsperiod börjar.",
+      "p2": "Man får alltid 14 dagars gratis provperiod när man skapar en ny användare hos SubReader. abonnemanget kan alltid avslutas i provperioden och har därmed ingen bindningstid. Om du avslutar innan 14dagar gäller din provperiod fortfarande tills perioden utlöper."
+    },
+    "q3": {
+      "title": "Hur får jag ett SubReader Plus abonnemang?",
+      "p1": "Ett SubReader Plus abonnemang kan köpas direkt i appen, eller genom vår hemsida på ",
+      "link": "www.subreader.se",
+      "href": "https://subreader.se"
+    },
+    "q4": {
+      "title": "Hur får jag 14 dagars gratis provperiod?",
+      "p1": "För att få 14 dagar gratis SubReader Plus provperiod ska du skapa en användare i appen och sammankoppla det med ett abonnemang utan bindning. Vi frågar efter dina kortuppgifter för att det ska vara enkelt och smidigt för dig att fortsätta ditt SubReader Plus abonnemang efter 14 dagar. Du kan välja att avsluta abonnemanget inom 14 dagar om du inte vill betala för ett abonnemang efterföljande."
+    },
+    "q5": {
+      "title": "Gäller ett SubReader abonnemang hela familjen?",
+      "p1": "Ja. Ett SubReader Plus abonnemang kan användas av upp till 5 familjemedlemmar samtidigt. Det betyder att man kan logga in med samma användare på fem olika enheter och använda sig av SubReader Plus abonnemanget. Vi vill göra er uppmärksamma på att detta bara gäller för familjen och ens användare får därför inte delas med utomstående personer."
+    },
+    "q6": {
+      "title": "Kan jag välja olika röster?",
+      "p1": "Inne i appen kan du hitta många olika röster som kan läsa undertexterna högt, både kvinnliga och manliga. Rösterna är baserade på den senaste teknologin inom talsyntes och uppdateras varje gång som det finns förbättringar och ändringar. Det betyder att SubReader alltid erbjuder de bästa rösterna som finns tillgängliga."
+    },
+    "q7": {
+      "title": "På vilka skärmar kan jag få upplästa undertexter när jag ser film med Subreader?",
+      "p1": "Du kan få upplästa undertexter till dina filmer och serier på flera olika enheter. Du kan använda SubReader till TV, dator eller läsplatta/iPad när du ser film men undertexterna kommer alltid bli upplästa på din telefon."
+    },
+    "q8": {
+      "title": "Stör jag andra när jag använder SubReader?",
+      "p1": "Nej. SubReader är ett diskret hjälpmedel som du kan använda när du ser film själv eller med andra. Använd hörlurar när du får undertexterna upplästa så är det bara du som hör undertexterna högt, så stör du ingen annan. När du har synkroniserat SubReader med filmen du vill se kan du låsa skärmen och lägga telefonen i fickan utan att uppläsningen av undertexterna slutar. Det är också möjligt att ha den på ljudlös vilket är bra om du är i biografen."
+    },
+    "q9": {
+      "title": "Kan man få undertexterna upplästa på flera olika språk?",
+      "p1": "Du kan få upplästa undertexter på de språk som är tillgängliga som undertexter på din streamingtjänst. Det betyder att du kan byta mellan olika språk om din film eller serie har undertexter på flera språk."
+    },
+    "q10": {
+      "title": "Hur kan jag avsluta?",
+      "p": {
+        "1": "Du kan avsluta ditt abonnemang direkt i appen under “Inställningar” och in på “Abonnemang”. Det är också möjligt att avsluta sitt abonnemang på ",
+        "link": "www.subreader.se",
+        "2": ", under ens kontouppgifter."
+      }
+    }
+  }
+}

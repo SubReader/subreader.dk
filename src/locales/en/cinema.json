@@ -1,0 +1,50 @@
+{
+  "seoTitle": "SubReader Cinemas",
+  "cinema": {
+    "heading": "SubReader Cinemas"
+  },
+  "StarterPackage": {
+    "heading": {
+      "content": "Starter pack for cinemas",
+      "span": "Here it will be possible to find and download materials that will help your cinema get off to a good start as being dyslexic friendly."
+    },
+    "list": {
+      "graphic": {
+        "imageAlt": "Graphic Material for Cinemas",
+        "heading": "Graphic Material",
+        "content": "When purchasing the SubReader system, a number of graphic material is included which can be used in the cinema. This includes banners, videos for screens / screens, flyers etc.",
+        "buttonText": "Download graphic material"
+      },
+      "operator": {
+        "imageAlt": "Operator Material for Cinemas",
+        "heading": "Operator Material",
+        "content": "For at komme igang med SubReader, er der en række materialer operatøren skal have. Dette indeholder blandt andet guides, FAQ, fejlfindingsdokument og velkomstbrev. Materiale individuelt for biografen, sendes pr mail.",
+        "buttonText": "Hent operatør materiale"
+      },
+      "some": {
+        "imageAlt": "SoMe Material for Cinemas",
+        "heading": "SoMe Material",
+        "content": "This material will enable your cinema to market itself with SubReader on social media. It contains examples of notices and advertisements that can be used on, for example, Facebook."
+      },
+      "pressMaterial": {
+        "imageAlt": "Press material for Cinemas",
+        "heading": "Press Material",
+        "content": "he media is very fond of SubReader, and therefore your cinema will no doubt be able to benefit from the media in connection with the launch. Here you can find the necessary material for use in connection with the press."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Contact us and hear more about SubReader",
+    "name": "Your name",
+    "email": "Your email",
+    "phone": "Your phone number",
+    "subject": "Subject",
+    "message": "Your message",
+    "success": "Your email has been sent!",
+    "spam": "You must wait 10 minutes before sending again.",
+    "buttonText": "Send",
+    "fieldRequired": "This field is required",
+    "emailValidation": "Email address is not valid",
+    "phoneValidation": "Minimum 8 numbers"
+  }
+}

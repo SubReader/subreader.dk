@@ -1,0 +1,58 @@
+:root {
+  --primaryHeading: #1e3154;
+  --altHeading: #fff;
+  --footerHeading: #4693ff;
+  --altP: #fff;
+  --blue: #2e83fa;
+  --p: #6d788e;
+  --altBg: #fff;
+  --bg: #091222;
+  --blueGradient: linear-gradient(180deg, #419ffb 0%, #1b66f9 100%);
+  --darkBlueGradient: linear-gradient(180deg, #0f75fb 0%, #041ead 100%);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  color: #fff;
+  font-family: Lato, -apple-system, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  word-wrap: break-word;
+  margin: 0;
+  background: var(--bg);
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  overflow-x: hidden;
+}
+
+.gatsby-image-wrapper {
+  pointer-events: none;
+  user-select: none;
+}
+button:focus {
+  outline: none;
+}
+
+p {
+  color: var(--p);
+  line-height: 26.24px;
+}
+h2,
+h1 {
+  font-size: 2.625rem;
+  color: var(--primaryHeading);
+}
+h3 {
+  font-size: 1.875rem;
+  color: var(--primaryHeading);
+}
+#gatsby-focus-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

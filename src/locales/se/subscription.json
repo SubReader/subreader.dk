@@ -1,0 +1,40 @@
+{
+  "success": {
+    "seoTitle": "Betalningen är genomförd",
+    "title": "Grattis, du har nu SubReader Plus!",
+    "content": "Hämta SubReader på din telefon och få tillgång till en värld full av filmer och serier med upplästa undertexter",
+    "accountNotice": {
+      "part1": "Logga in med din",
+      "part2": "i SubReader appen!"
+    },
+    "facebook": "Facebook",
+    "email": "Email Konto: {{email}}",
+    "google": "Google Konto",
+    "phone": "Telefon Konto: {{phoneNumber}}"
+  },
+  "summary": {
+    "title": "Översikt",
+    "binding": "Ingen bindingstid. Avsluta när du vill.",
+    "paymentNotice": "Idag betalar du:",
+    "trialReminder": "Efter 14 dagar:",
+    "monthly": "månad",
+    "yearly": "årlig"
+  },
+  "monthly": {
+    "link": "Ändra till månadsabonnemang",
+    "seoTitle": "Månadsabonnemang",
+    "seoDescription": "Få dina undertexter upplästa nu på alla dina streamingtjänster med SubReader Plus abbonnemang.",
+    "button": "Börja din 14-dagars provperiod"
+  },
+  "flow": {
+    "step1": "Skapa användare/inloggning",
+    "step2": "Få en provperiod",
+    "step3": "Ladda ner SubReader"
+  },
+  "yearly": {
+    "link": "Spara {{percent}} med ett årligt abonnemang",
+    "seoTitle": "Årligt abonnemang",
+    "seoDescription": "Få dina undertexter upplästa nu på alla dina streamingtjänster med SubReader Plus abbonnemang.",
+    "button": "Börja din 14-dagars provperiod"
+  }
+}

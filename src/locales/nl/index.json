@@ -1,0 +1,124 @@
+{
+  "seoTitle": "SubReader",
+  "hero": {
+    "title": "Gesproken ondertiteling bij buitenlandse films",
+    "movie-btn": "Bekijk de video over SubReader",
+    "button": "Lees meer over SubReader",
+    "alt": "Leest ondertitels voor hero afbeelding"
+  },
+  "worksWith": {
+    "trial-btn": "Download nu",
+    "title": "Gebruik SubReader met jouw streamingdiensten",
+    "services": [
+      {
+        "logo": "netflix",
+        "alt": "Werkt met Netflix"
+      },
+      {
+        "logo": "disney",
+        "alt": "Werkt met Disney Plus"
+      }
+    ]
+  },
+  "howAppWorks": {
+    "title": "Zo kan je aan de slag",
+    "to": "https://apps.apple.com/app/subreader/id1105856178?l=nl",
+    "info": {
+      "title": "Download SubReader",
+      "content": "SubReader werkt met zowel iPhone- als Android telefoons, zodat iedereen SubReader kan gebruiken om ondertitels van films en series voor te laten lezen. Er is dus niks wat je tegenhoud om de SubReader app te downloaden en samen te genieten van een goede film. ",
+      "button": "Download nu",
+      "binding": "Geen binding",
+      "alt": "Download de SubReader app"
+    },
+    "info2": {
+      "title": "Zoek naar jouw films",
+      "content": "SubReader geeft je toegang tot gesproken ondertiteling voor films en series van je streamingdiensten.  Met SubReader heb je toegang tot de beste stemmen die de ondertitels voorlezen voor onder andere films en series van Netflix en Disney+.",
+      "button": "Download nu",
+      "binding": "Geen binding",
+      "alt": "Zoek naar jouw films met de SubReader app"
+    },
+    "info3": {
+      "title": "Laat de app meeluisteren",
+      "content": "Start de film en laat SubReader een paar seconden meeluisteren om uit te vinden wanneer de ondertitels hardop voorgelezen moeten worden. De app synchroniseert automatisch, waardoor het eenvoudig en snel is om SubReader in te stellen.",
+      "button": "Download nu",
+      "binding": "Geen binding",
+      "alt": "Laat de app de film synchroniseren "
+    }
+  },
+  "movie": {
+    "title": "Ga er lekker voor zitten en geniet van de film",
+    "content": "Kies uit één van de vele stemmen degene die jij het fijnst vindt. Ga er lekker voor zitten en laat de nieuwe wereld van buitenlandse films en series voor je opengaan met de voorgelezen ondertiteling.",
+    "button": "Ga aan de slag met SubReader",
+    "scrollInto": "Download"
+  },
+  "whySubReader": {
+    "testimonial": {
+      "title": "Dit is waarom je SubReader moet gebruiken",
+      "content": "Met behulp van SubReader kan je net als alle anderen de nieuwste buitenlandse films en series kijken. SubReader leest de ondertitels discreet voor, zonder anderen te storen.  SubReader is daarom een ​​handig hulpmiddel voor dyslecten of mensen die moeite hebben met lezen. ",
+      "review": "Vandaag heb ik voor het eerst in mijn leven een Engelse film gezien. Dat was absoluut een geweldige ervaring - SubReader heeft een nieuwe wereld voor mij geopend.",
+      "author": "Camilla Møller",
+      "authorSubtitle": "Dyslect"
+    },
+    "feature": {
+      "title": "Gebruik met je telefoon of iPad",
+      "content": "Of je nu een film kijkt met SubReader op de televisie in de woonkamer of met een laptop in bed: SubReader leest de ondertiteling voor."
+    },
+    "feature2": {
+      "title": "Doorzoek al uw streamingdiensten",
+      "content": "Voer de titel van de film of serie in die jij wilt kijken en de app zoekt tussen de duizenden films en series die via o.a. Netflix en Disney+ beschikbaar zijn."
+    },
+    "feature3": {
+      "title": "Altijd bij de hand",
+      "content": "SubReader leest de ondertitels van je favoriete films en series voor. Of je nu thuis, in de bioscoop of bij iemand anders op bezoek bent."
+    }
+  },
+  "subscriptions": {
+    "title": {
+      "content": "Krijg toegang tot een wereld van entertainment met ",
+      "span": "SubReader Plus"
+    },
+    "features": [
+      "Gebruik in de bioscoop",
+      "Gebruik met Netflix",
+      "Gebruik met Disney+"
+    ],
+    "binding": "Geen binding",
+    "yearly": {
+      "title": "Jaarlijks",
+      "button": "Download nu",
+      "banner": "Bespaar {{percent}}",
+      "year": "jaar"
+    },
+    "monthly": {
+      "title": "Maandelijks",
+      "button": "Download nu",
+      "month": "maand"
+    }
+  },
+  "testimonials": {
+    "title": "Dit zeggen gebruikers over SubReader",
+    "1": {
+      "content": "Vandaag heb ik voor het eerst in mijn leven een Engelse film gezien. Dat was absoluut een geweldige ervaring - SubReader heeft een nieuwe wereld voor mij geopend.",
+      "author": "Camilla Møller",
+      "alt": "Foto van Camilla wie dyslectisch is",
+      "authorSubtitle": "Dyslect"
+    },
+    "2": {
+      "content": "Ik heb twee dyslectische kinderen. Eentje huilde van vreugde, want er zijn veel films die hij graag zou willen zien.",
+      "author": "Lone Munch",
+      "alt": "Foto van Lone, moeder van twee dyslectische kinderen",
+      "authorSubtitle": "Moeder van twee dyslectische kinderen"
+    },
+    "3": {
+      "content": "Nu kan ik met het ene oor luisteren naar de ondertiteling uit de koptelefoon en met het andere oor naar de film, zodat ik net als alle anderen films kan kijken. ",
+      "author": "Christian Bock",
+      "alt": "Foto van Christian Rock die een dyslexiecoach is",
+      "authorSubtitle": "Dyslexiecoach"
+    }
+  },
+  "download": {
+    "title": "Laat de ondertiteling vandaag nog voorlezen met behulp van SubReader",
+    "content": "Download de SubReader app op je telefoon en je bent klaar om ondertitels van verschillende streamingdiensten voor te laten lezen.",
+    "alt": "Met SubReader kunnen ondertitels van verschillende streamingdiensten voorgelezen worden."
+  }
+}

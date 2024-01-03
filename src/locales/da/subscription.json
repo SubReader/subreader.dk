@@ -1,0 +1,41 @@
+{
+  "success": {
+    "seoTitle": "Betalling gennemført",
+    "title": "Tillykke, du har nu SubReader Plus!",
+    "content": "Hent SubReader ned på din telefon, og få adgang til en verden af film og serier med oplæste undertekster.",
+    "accountNotice": {
+      "part1": "Log ind med din",
+      "part2": "i SubReader app!"
+    },
+    "facebook": "Facebook",
+    "email": "Email Konto: {{email}}",
+    "google": "Google Konto",
+    "phone": "Telefon Konto: {{phoneNumber}}",
+    "video-src": "https://www.youtube.com/embed/ymEWOxoHzyY"
+  },
+  "summary": {
+    "title": "Oversigt",
+    "binding": "Ingen binding. Opsig når som helst.",
+    "paymentNotice": "I dag betaler du:",
+    "trialReminder": "Efter 14 dage:",
+    "monthly": "måned",
+    "yearly": "årligt"
+  },
+  "monthly": {
+    "link": "Skift til månedligt abonnement",
+    "seoTitle": "Månedligt abonnement",
+    "seoDescription": "Begynd at få dine undertekster oplæst på tværs af streamingtjenester med SubReader Plus abonnement.",
+    "button": "Start 14 dages prøveperiode"
+  },
+  "flow": {
+    "step1": "Opret bruger / log ind",
+    "step2": "Opret prøveperiode",
+    "step3": "Download SubReader"
+  },
+  "yearly": {
+    "link": "Spar {{percent}} med årligt abonnement",
+    "seoTitle": "Årligt abonnement",
+    "seoDescription": "Begynd at få dine undertekster oplæst på tværs af streamingtjenester med SubReader Plus abonnement.",
+    "button": "Start 14 dages prøveperiode"
+  }
+}

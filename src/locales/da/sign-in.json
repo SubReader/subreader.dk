@@ -1,0 +1,37 @@
+{
+  "seoTitle": "Log ind",
+  "seoDescription": "Her kan du oprette/log in med din SubReader konto, og begynd at få undertekster oplæst med din telefon.",
+  "continue": {
+    "divider": "eller",
+    "sms": "Forsæt med SMS",
+    "email": "Forsæt med Email",
+    "facebook": "Forsæt med Facebook",
+    "google": "Forsæt med Google"
+  },
+  "terms": {
+    "content": "Ved at forsætte acceptere du vores",
+    "span": "vilkår og betingelser",
+    "href": "https://subreader.dk/terms/"
+  },
+  "phone": {
+    "seoTitle": "Enter Telefon",
+    "title": "Indtast telefon nummer",
+    "button": "Forsæt",
+    "verificationReminder": "Indtast koden du har modtaget på SMS"
+  },
+  "email": {
+    "seoTitle": "Enter Email",
+    "placeholder": "din@email.dk",
+    "title": "Indtast email",
+    "button": "Forsæt",
+    "verificationReminder": "Indtast koden du har modtaget i din Email"
+  },
+  "verification": {
+    "button": "Bekræft"
+  },
+  "name": {
+    "seoTitle": "Enter Navn",
+    "title": "Indtast navn",
+    "button": "Opret bruger"
+  }
+}

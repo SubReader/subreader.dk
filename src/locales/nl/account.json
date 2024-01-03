@@ -1,0 +1,26 @@
+{
+  "info": {
+    "title": "Accountinformatie",
+    "personal": {
+      "heading": "Persoonlijke informatie",
+      "name": "Naam",
+      "country": "Land"
+    },
+    "subscription": {
+      "heading": "Abonnementsgegevens",
+      "subscription": "Abonnement",
+      "status": {
+        "content": "Status",
+        "active": "Actief",
+        "cancelled": "Non-actief",
+        "activeButCancelled": "Actief, maar het abonnement is opgezegd"
+      },
+      "free": "gratis",
+      "button": {
+        "active": "Afmelden voor abonnement",
+        "disabled": "Abonnement is geannuleerd"
+      }
+    }
+  },
+  "log-out": "Uitloggen"
+}

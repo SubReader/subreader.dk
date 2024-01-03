@@ -1,0 +1,175 @@
+{
+  "seoTitle": "Questions and answers",
+  "seoDescription": "Here you can find the answers to all your questions about the SubReader website and app, and get on the right path.",
+  "general": {
+    "heading": "General questions",
+    "q1": {
+      "title": "Who can use SubReader?",
+      "p1": "SubReader can be used by all people who have difficulty reading subtitles. SubReader's read-out subtitles makes it more relaxed to watch movies and series, so you can follow on the same terms as the others, whether you're dyslexic, have reading difficulties, visual impairment or have not yet learned to read the subtitles."
+    },
+    "q2": {
+      "title": "How to download SubReader?",
+      "p": "You can download SubReader at <0>{{apple}}</0> for iPhone and on <1>{{google}}</1> for Android phones"
+    },
+    "q3": {
+      "title": "Which device should I download SubReader on?",
+      "p1": "You need to download SubReader on your phone or iPad which will read the subtitles aloud to you. You do NOT need to download SubReader on the device you are watching movies or series on, such as your Smart TV or computer."
+    },
+    "q4": {
+      "title": "How do I create a user?",
+      "p1": "After downloading and opening the app, select a login method. You can choose to continue with SMS, Email, Apple, Facebook, Google or School Login. Depending on which login method you choose, you will be asked to verify your information through a verification code. Now you will have access to the SubReader app. Here you can search for movies and series and buy a SubReader Plus subscription and get free access to all subtitles and voices in the app."
+    },
+    "q5": {
+      "title": "What is the difference between a user and a SubReader Plus subscription?",
+      "p1": "Creating a user simply means creating a user profile in the app. This does not cost money and you do not have to provide payment information. If you have a user but not a subscription, you can use the app in the cinema.",
+      "p2": "Do you, on the other hand, want to have subtitles read aloud on <strong>Netflix</strong>, <strong>Viaplay</strong> or <strong>Disney+</strong> requires a SubReader Plus subscription. This costs <strong>{{monthly}} månedligt</strong> or <strong>{{yearly}} yearly.</strong>"
+    },
+    "q6": {
+      "title": "What is dyslexia and who has it?",
+      "p1": "There are often many questions that arise when you find out that you or someone in your family is dyslexic. For many, dyslexia is detected at an early age when reading and writing difficulties become apparent when they start school. But for others, dyslexia is only discovered much later, and it can be a challenge to follow the teaching and entertainment like everyone else without understanding what the reason is for it. Dyslexia is often hereditary, which is why there are often more people in the family who are dyslexic. It is important to note that dyslexia has no connection to intelligence, but can be referred to as a neurological inhibition in the phonological component of language. Dyslexics often need more time to read texts. This means e.g. that subtitles played on film go too fast, and the brain does not have enough time to work with the text to understand what it is saying before new subtitles appear on the screen. Therefore, it can be difficult to keep up with subtitles on film if you are dyslexic.",
+      "p2": "5-8% of Denmark's population is estimated to be dyslexic, which means that there are about half a million people who have dyslexia in Denmark. However, everyone has different difficulties with his dyslexia and some are better at writing and others are better at reading. There are many different aids for dyslexia, and today there are also many apps for dyslexics. It makes everyday life easier and creates better conditions for people with dyslexia."
+    },
+    "q7": {
+      "title": "What does it mean to have reading difficulties?",
+      "p1": "Reading and writing difficulties can be due to things other than dyslexia. It can be difficult to follow the text and write correctly if you have a visual impairment or other disability. It can also be due to language understimulation, language impairment or lack of teaching. In addition, if you do not have Danish as a mother tongue, cultural differences and linguistic differences can make it difficult to understand Danish texts. Therefore, there are several different reasons why a child, a teenager or an adult has difficulty following subtitles on movies and series."
+    },
+    "q8": {
+      "title": "What is challenging when you are dyslexic and how can you get help with dyslexia? bb",
+      "p1": "As a dyslexic, reading a lot of text can be hard. It takes time to get the text to stick together, and you often risk reading sentences incorrectly, which means you do not understand the full context of the text. It can also be perceived as the letters jumping around in the sentences, or the text becoming blurred and unclear. Therefore, it is also difficult to keep up with the text that needs to be read quickly, e.g. by reading subtitles on movies that change quickly and move on to a new sentence when a new person speaks. It also makes it challenging to participate in certain social contexts such as cinema visits or movie nights with friends. This means that many who are dyslexic risk feeling left out when new movies and series are discussed between family and friends. Especially foreign films for which they can not read the subtitles. Many dyslexics learn English just like everyone else and can therefore watch foreign movies, even if they cannot read the subtitles.",
+      "p2": "There are many aids for the dyslexic in the form of computer programs, reading rulers, but also apps. Some aids are supported by municipalities and schools, while others can be purchased privately. A speech therapist can help you choose good dyslexic aids and can recommend which tools are right for you. You can also search the internet for dyslexic aids. Since there are now many apps for the dyslexic, it is easy to try a few different aids and see which ones you like best.",
+      "p3": "We have made an overview of some of the tools available for the dyslexic <0>here</0>",
+      "link": "https://drive.google.com/file/d/1Ys_UzoL8hpRu8F3d2DdUxqwHA102Q1Gg/view?usp=sharing"
+    },
+    "q9": {
+      "title": "What is dyslexia?",
+      "p1": "Dyslexia is a common learning difficulty that can cause problems with reading, writing and spelling. It's a specific learning difficulty, which means it causes problems with certain abilities used for learning, such as reading and writing."
+    }
+  },
+  "school": {
+    "heading": "SubReader School",
+    "q1": {
+      "title": "How can my school get SubReader?",
+      "p1": "If you want to know more about SubReader School or have SubReader School set up at your school, you can contact our colleagues at Vitec MV, who manage our SubReader School licenses and support. They can inform about prices and setup. You can contact them at: <0>{{email}}</0> or on the phone <2>{{phoneLink}}</2>.",
+      "p2": "If you as a parent want your child's school to offer SubReader School and read aloud subtitles for teaching and film, then you can ask a teacher or head of the school to contact us for more info on how to access SubReader.",
+      "email": "salg.mv@vitecsoftware.com",
+      "phone": {
+        "content": "+45 65 91 80 22",
+        "link": "+4565918022"
+      }
+    },
+    "q2": {
+      "title": "Does the student need a SubReader subscription to use SubReader School?",
+      "p1": " student does not need to have a subscription to use SubReader in school if the school already has a SubReader subscription. The student simply needs to log in with his UNI-Login and will then have access if the school has purchased a SubReader School license.",
+      "p2": "NOTE: SubReader Plus subscription does not provide access to read-out subtitles in the teaching. This requires that the school / municipality has purchased a SubReader Shcool license."
+    },
+    "q3": {
+      "title": "Does it cost money for the student to use SubReader School?",
+      "p1": "The student does not have to pay to use SubReader in school. The school must have a license that the student will receive through his UNI login if they have purchased it."
+    },
+    "q4": {
+      "title": "How can I log on SubReader School?",
+      "p1": "When you start the app, you will have the option to log in with UNI-Login. It is the bottom button of the various login options. The school then only requires that the teachers have installed SubReader's Google Chrome plugin and logged in with their UNI-Login here as well, and have a SubReader School license."
+    },
+    "q5": {
+      "title": "Does using SubReader at school require extra equipment?",
+      "p1": "No, integrating SubReader into the school is easy. The only thing to use is a Google Chrome plugin, which can be downloaded after the school has purchased a license. If you want help setting up SubReader School, you can contact our partner Vitec-MV by email: <0>{{email}}</0> or phone <2>{{phoneLink}}</2>.",
+      "email": "salg.mv@vitecsoftware.com",
+      "phone": {
+        "content": "+45 65 91 80 22",
+        "link": "+4565918022"
+      }
+    }
+  },
+  "bio": {
+    "heading": "SubReader Cinema",
+    "q1": {
+      "title": "How do I use SubReader in the cinema?",
+      "p1": "To use SubReader in the cinema, download the app on your phone and create a user. Before you sit down, use the scan feature in the app to scan the QR code that hangs out in front of the floor you are entering. The app will automatically start reading subtitles when the movie begins. Remember to use headphones so you do not disturb the others who have to watch movies, as well as to turn your phone on silent and turn off the screen."
+    },
+    "q2": {
+      "title": "Does it cost money to use SubReader in the cinema?",
+      "p1": "It's free to use SubReader in the cinema."
+    },
+    "q3": {
+      "title": "Do I need to create a user in the app to be able to use SubReader in the cinema?",
+      "p1": "Yes. You must have created a user in the app, but you do not need to purchase a SubReader Plus subscription."
+    },
+    "q4": {
+      "title": "Do I need SubReader Plus to use SubReader in the cinema?",
+      "p1": "No, you do not need to purchase SubReader Plus to use the app in the cinema. However, you must have a user created."
+    },
+    "q5": {
+      "title": "Why can't I use the app at my local cinema?",
+      "p1": "If you cannot use the app in your local cinema, it means that the cinema does not have the system installed. We have often found that cinemas have been quick to install SubReader when they hear from their customers that this is something they want.",
+      "p2": "Cinema owners can contact us at ",
+      "link": "alexander@subreader.dk"
+    },
+    "q6": {
+      "title": "How do I know if my local cinema has SubReader?",
+      "p1": "Inside the SubReader app you will find a map with an overview of all cinemas that have SubReader installed. Here you can search for your local cinema and see if it offers SubReader. If in doubt, you can always ask your cinema if they offer read-out subtitles with SubReader, and if not, feel free to refer them to us and we will continue the conversation."
+    },
+    "q7": {
+      "title": "Do I need any extra equipment to be able to use SubReader in the cinema?",
+      "p1": "All you need to get the subtitles read aloud in the cinema is your phone or iPad with the app installed and a pair of headphones."
+    },
+    "q8": {
+      "title": "Can I use SubReader in the cinema no matter what language the movie is in?",
+      "p1": "SubReader works no matter what language is used in the movie."
+    },
+    "q9": {
+      "title": "Do I need internet to use SubReader in the cinema?",
+      "p1": "When you watch a movie in the cinema with SubReader, it is important that you either have a 3G / 4G signal on your phone, or are connected to the cinema's wifi - ask the staff for the login. We point out that SubReader uses very little data / internet, and you should therefore not be afraid that we use all your data in your subscription."
+    }
+  },
+  "plus": {
+    "heading": "SubReader Plus",
+    "q1": {
+      "title": "What is SubReader Plus?",
+      "p1": "SubReader Plus is a subscription that gives you access to read subtitles on the major streaming services, such as <strong>Netflix</strong>, <strong>Disney+</strong> and <strong>Viaplay</strong>",
+      "p2": "With SubReader Plus you have free access to all our voices, which are made with artificial intelligence. When reading subtitles, the reading is synchronized with your movies and series easily and automatically. SubReader Plus makes it easy and relaxed to follow in movies and series like everyone else whether you are dyslexic, visually impaired or have other reading difficulties that make it difficult to read and understand subtitles."
+    },
+    "q2": {
+      "title": "How much does SubReader Plus cost?",
+      "p1": "A monthly SubReader Plus subscription costs <strong>{{monthly}}/monthly</strong>. The monthly subscription is deducted once a month. An annual subscription costs only <strong>{{yearly}}/annually</strong> saving you <strong>{{discount}}</strong>.The annual SubReader price is paid only once a year. You can see the different SubReader prices inside the app or on the website. There is no binding on SubReader subscriptions and they can always be terminated.",
+      "p2": "You always get a 14 day free trial when you create a new user on SubReader. The trial period is without obligation and, like its subscription, can always be terminated."
+    },
+    "q3": {
+      "title": "How do I get a SubReader subscription?",
+      "p1": "A SubReader Plus subscription can be purchased directly in the app, or through our website at ",
+      "link": "www.subreader.co.uk",
+      "href": "https://subreader.co.uk"
+    },
+    "q4": {
+      "title": "How do I get a 14 day free trial?",
+      "p1": "To get a 14-day free SubReader Plus trial, you need to create a user in the app and associate a non-binding subscription. We request your card information so that you can easily continue your SubReader Plus subscription after 14 days. You can choose to unsubscribe before the 14 days have passed if you do not want to pay for a subscription afterwards."
+    },
+    "q5": {
+      "title": "Does a SubReader subscription apply to the whole family?",
+      "p1": "Yes. Each SubReader Plus subscription can be used by up to 5 family members simultaneously. This means that you can log in with the same user on 5 different devices and use the Plus subscription. Please note, however, that this only applies to the family and one's user may never be shared with people outside the family."
+    },
+    "q6": {
+      "title": "Can I choose between different voices?",
+      "p1": "Inside the app you can find many different voices that can read the subtitles aloud, both female and male. The voices are based on the latest technology in speech synthesis, and are updated every time there are improvements in the technology. This means that SubReader always offers the best voices available."
+    },
+    "q7": {
+      "title": "On which screens can I read subtitles when watching movies with SubReader?",
+      "p1": "You can watch movies or series with read-out subtitles on several different devices. You can use SubReader for TV, computer or iPad when watching movies, but the subtitles will always be read out on your phone."
+    },
+    "q8": {
+      "title": "Do I disturb others if I use SubReader?",
+      "p1": "No. SubReader is a discreet tool that you can use when watching movies alone or with others. Use headphones when reading subtitles to avoid disturbing others. Once you have synchronized SubReader with the movie you are watching, you can turn off the screen and put it away without stopping the subtitle from reading aloud - it is also possible to mute the phone in the cinema."
+    },
+    "q9": {
+      "title": "Can the subtitles be read in several different languages?",
+      "p1": "You can have subtitles read aloud in the languages where subtitles are available on your streaming service. This means that you can switch between different languages if your movie or series has subtitles in different languages."
+    },
+    "q10": {
+      "title": "How can I unsubscribe?",
+      "p": {
+        "1": "You can unsubscribe directly from the app under “settings” and “subscriptions”. It is also possible to unsubscribe from ",
+        "link": "www.subreader.co.uk",
+        "2": ", under account settings."
+      }
+    }
+  }
+}

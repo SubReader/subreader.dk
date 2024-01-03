@@ -1,0 +1,54 @@
+{
+  "videoSection": {
+    "heading": "Hear about Karla's experiences with film in school",
+    "videoUrl": "https://www.youtube.com/embed/K5STAxJXHG8",
+    "services": [
+      {
+        "logo": "fc",
+        "alt": "Film Centralen Logo"
+      },
+      {
+        "logo": "cfu",
+        "alt": "Centre for undevisningsmidler danmark Logo"
+      }
+    ],
+    "info": {
+      "heading": "Subtitles read out in class",
+      "p": [
+        "SubReader School allows teachers to show foreign educational films in the classroom, without having to worry about whether dyslexics and other low-reading students can keep up.",
+        "SubReader can be used on the usual teaching services: MitCFU and Filmcentralen, but also on Netflix, Disney+ and Viaplay."
+      ]
+    }
+  },
+  "contactSection": {
+    "heading": "Contact us and learn more about SubReader",
+    "required": "This field is required",
+    "success": "Email has been sent.",
+    "spam": "You must wait 10 minutes before sending again.",
+    "send": "Send",
+    "input": {
+      "name": {
+        "aria-label": "Name Input field",
+        "placeholder": "Your full name*"
+      },
+      "school": {
+        "aria-label": "School name Input field",
+        "placeholder": "School name*"
+      },
+      "email": {
+        "aria-label": "Email Input field",
+        "placeholder": "Email address*",
+        "invalid": "Not valid email"
+      },
+      "phone": {
+        "aria-label": "Phone number Input field ",
+        "placeholder": "Phone number*",
+        "invalid": "Minimum 8 numbers"
+      },
+      "message": {
+        "aria-label": "Comment Text field",
+        "placeholder": "Comments"
+      }
+    }
+  }
+}

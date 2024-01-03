@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "index": "Homepage",
+    "faq": "Questions and answers",
+    "bio": "Cinemas",
+    "schools": "For schools",
+    "get-started": "Get started",
+    "account": "My account",
+    "blog": "Blog",
+
+    "log-out": "Log out"
+  },
+  "trial-btn": "Try 14 days for free"
+}
