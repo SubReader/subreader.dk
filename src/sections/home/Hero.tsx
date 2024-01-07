@@ -215,9 +215,6 @@ const Hero: React.FC<WithTranslation> = ({ t, i18n }) => {
   //   },
   // ];
 
-  console.log(imagesData);
-
-
   return (
     <HeroContainer>
       <GlobalStyle />
@@ -225,7 +222,7 @@ const Hero: React.FC<WithTranslation> = ({ t, i18n }) => {
         <HeroImageContainer>
           <HeroImage
             // loading={"eager"}
-            image={imagesData.desktop_da.childImageSharp.gatsbyImageData}
+            image={imagesData.laptop_da.childImageSharp.gatsbyImageData}
             alt={t("hero.alt")}
           />
         </HeroImageContainer>
