@@ -1,5 +1,5 @@
-import { FluidObject } from "gatsby-image";
-export type Banner = { childImageSharp: { fluid: FluidObject } };
+import { GatsbyImage } from "gatsby-plugin-image";
+export type Banner = { childImageSharp: { fluid: GatsbyImage } };
 export type Lang = string;
 
 export type Fields = {

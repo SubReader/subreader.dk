@@ -3,17 +3,17 @@ import styled, { createGlobalStyle } from "styled-components";
 import { useStaticQuery, graphql } from "gatsby";
 import ButtonLink from "../../components/Button";
 import PlayButton from "../../assets/icons/PlayButton/index";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import VideoModal from "../../components/VideoModal";
 import { analytics } from "../../analytics";
 import { withTranslation, WithTranslation } from "react-i18next";
 const GlobalStyle = createGlobalStyle`
-header{
-  background:transparent !important;
-}
-#open-icon{
-  fill:#000;
-}
+  header{
+    background:transparent !important;
+  }
+  #open-icon{
+    fill:#000;
+  }
 `;
 
 const HeroContainer = styled.section`
@@ -119,7 +119,7 @@ const Info = styled.button`
   }
 `;
 
-const HeroImage = styled(Image)`
+const HeroImage = styled(GatsbyImage)`
   height: 650px;
   img {
     object-position: top !important;
@@ -158,78 +158,65 @@ const HeroImageContainer = styled.aside`
   }
 `;
 
-export const DesktopImageFragment = graphql`
-  fragment DesktopImageSharp on File {
+export const DesktopImageFragment = graphql`fragment DesktopImageSharp on File {
+  childImageSharp {
+    gatsbyImageData(quality: 75, layout: FULL_WIDTH)
+  }
+}`;
+export const LaptopImageFragment = graphql`fragment LaptopImageSharp on File {
+  childImageSharp {
+    gatsbyImageData(quality: 10, width: 750, layout: CONSTRAINED)
+  }
+}`;
+const query = graphql`{
+  mobile: file(name: {eq: "posterMobile"}) {
     childImageSharp {
-      fluid(quality: 75, maxWidth: 1220) {
-        ...GatsbyImageSharpFluid
-      }
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
-export const LaptopImageFragment = graphql`
-  fragment LaptopImageSharp on File {
+  tablet: file(name: {eq: "posterTablet"}) {
     childImageSharp {
-      fluid(quality: 10, maxWidth: 750) {
-        ...GatsbyImageSharpFluid
-      }
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
-const query = graphql`
-  query {
-    mobile: file(name: { eq: "posterMobile" }) {
-      childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    tablet: file(name: { eq: "posterTablet" }) {
-      childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    laptop_da: file(name: { eq: "posterDesktop_da" }) {
-      ...LaptopImageSharp
-    }
-    laptop_nl: file(name: { eq: "posterDesktop_nl" }) {
-      ...LaptopImageSharp
-    }
-
-    desktop_da: file(name: { eq: "posterDesktop_da" }) {
-      ...DesktopImageSharp
-    }
-
-    desktop_nl: file(name: { eq: "posterDesktop_nl" }) {
-      ...DesktopImageSharp
-    }
+  laptop_da: file(name: {eq: "posterDesktop_da"}) {
+    ...LaptopImageSharp
   }
-`;
+  laptop_nl: file(name: {eq: "posterDesktop_nl"}) {
+    ...LaptopImageSharp
+  }
+  desktop_da: file(name: {eq: "posterDesktop_da"}) {
+    ...DesktopImageSharp
+  }
+  desktop_nl: file(name: {eq: "posterDesktop_nl"}) {
+    ...DesktopImageSharp
+  }
+}`;
 
 const Hero: React.FC<WithTranslation> = ({ t, i18n }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const imagesData = useStaticQuery(query);
   const { mobile, tablet } = imagesData;
-  const sources = [
-    mobile.childImageSharp.fluid,
-    {
-      ...(imagesData[`desktop_${i18n.language}`]?.childImageSharp.fluid ||
-        imagesData["desktop_da"].childImageSharp.fluid),
-      media: `(min-width: 1530px)`,
-    },
-    {
-      ...(imagesData[`laptop_${i18n.language}`]?.childImageSharp.fluid ||
-        imagesData["laptop_da"].childImageSharp.fluid),
-      media: `(min-width: 950px)`,
-    },
-    {
-      ...tablet.childImageSharp.fluid,
-      media: `(min-width: 500px)`,
-    },
-  ];
+  // const sources = [
+  //   mobile.childImageSharp.gatsbyImageData,
+  //   {
+  //     ...(imagesData[`desktop_${i18n.language}`]?.childImageSharp?.gatsbyImageData ||
+  //       imagesData["desktop_da"].childImageSharp.gatsbyImageData),
+  //     media: `(min-width: 1530px)`,
+  //   },
+  //   {
+  //     ...(imagesData[`laptop_${i18n.language}`]?.childImageSharp?.gatsbyImageData ||
+  //       imagesData["laptop_da"].childImageSharp.gatsbyImageData),
+  //     media: `(min-width: 950px)`,
+  //   },
+  //   {
+  //     ...tablet.childImageSharp.gatsbyImageData,
+  //     media: `(min-width: 500px)`,
+  //   },
+  // ];
+
+  console.log(imagesData);
+
 
   return (
     <HeroContainer>
@@ -237,9 +224,8 @@ const Hero: React.FC<WithTranslation> = ({ t, i18n }) => {
       <HeroContent>
         <HeroImageContainer>
           <HeroImage
-            loading={"eager"}
-            placeholderStyle={{ visibility: "hidden" }}
-            fluid={sources}
+            // loading={"eager"}
+            image={imagesData.desktop_da.childImageSharp.gatsbyImageData}
             alt={t("hero.alt")}
           />
         </HeroImageContainer>

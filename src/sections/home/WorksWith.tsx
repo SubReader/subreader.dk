@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import styled from "styled-components";
 import Content from "../../components/Content";
 import { useTranslation } from "react-i18next";
@@ -48,48 +48,33 @@ const ServicesContainer = styled.ul`
   padding: 0;
 `;
 
-const IMAGESQUERY = graphql`
-  query {
-    netflix: file(relativePath: { eq: "partners/netflix-logo.png" }) {
-      data: childImageSharp {
-        fixed(width: 128) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-
-    viaplay: file(relativePath: { eq: "partners/viaplay-logo.png" }) {
-      data: childImageSharp {
-        fixed(width: 128) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-
-    disney: file(relativePath: { eq: "partners/disney-logo.png" }) {
-      data: childImageSharp {
-        fixed(width: 128) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-
-    drtv: file(relativePath: { eq: "partners/drtv-logo.png" }) {
-      data: childImageSharp {
-        fixed(width: 128) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    nrktv: file(relativePath: { eq: "partners/nrktv-logo.png" }) {
-      data: childImageSharp {
-        fixed(width: 128) {
-          ...GatsbyImageSharpFixed
-        }
-      }
+const IMAGESQUERY = graphql`{
+  netflix: file(relativePath: {eq: "partners/netflix-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(width: 128, layout: FIXED)
     }
   }
-`;
+  viaplay: file(relativePath: {eq: "partners/viaplay-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(width: 128, layout: FIXED)
+    }
+  }
+  disney: file(relativePath: {eq: "partners/disney-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(width: 128, layout: FIXED)
+    }
+  }
+  drtv: file(relativePath: {eq: "partners/drtv-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(width: 128, layout: FIXED)
+    }
+  }
+  nrktv: file(relativePath: {eq: "partners/nrktv-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(width: 128, layout: FIXED)
+    }
+  }
+}`;
 type Service = {
   logo: string;
   alt: string;
@@ -99,6 +84,7 @@ type ServicesArray = string | TemplateStringsArray;
 const WorksWith: React.FC = () => {
   const { t } = useTranslation();
   const services = useStaticQuery(IMAGESQUERY);
+
   const localServices = t<ServicesArray>("worksWith.services", {
     returnObjects: true,
   });
@@ -111,7 +97,7 @@ const WorksWith: React.FC = () => {
           {Array.isArray(localServices) &&
             localServices.map(({ logo, alt }: Service, i: number) => (
               <Service key={i}>
-                <Image alt={alt} loading={"eager"} {...services[logo].data} />
+                <GatsbyImage alt={alt} loading={"eager"} image={services[logo].data.gatsbyImageData} />
               </Service>
             ))}
         </ServicesContainer>

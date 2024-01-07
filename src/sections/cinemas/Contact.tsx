@@ -86,7 +86,13 @@ const SuccessMsg = styled.span`
 `;
 const Contact: React.FC = () => {
   const { t } = useTranslation("cinema");
-  const { handleSubmit, register, errors } = useForm();
+  const { handleSubmit, register, formState: { errors } } = useForm<{
+    name: string;
+    email: string;
+    phone: string;
+    subject: string;
+    message: string;
+  }>();
   const [loading, setLoading] = useState(false);
   const [emailSend, setEmailSend] = useState<boolean>(false);
   const [preventSpam, setPreventSpam] = useState<boolean>(false);
@@ -125,7 +131,7 @@ const Contact: React.FC = () => {
             css={loading && disabledInput}
             disabled={loading}
             name="name"
-            ref={register({
+            {...register("name", {
               required: t<string>("contact.fieldRequired"),
             })}
           />
@@ -137,7 +143,7 @@ const Contact: React.FC = () => {
             css={loading && disabledInput}
             disabled={loading}
             name="email"
-            ref={register({
+            {...register("email", {
               required: t<string>("contact.fieldRequired"),
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -152,8 +158,7 @@ const Contact: React.FC = () => {
           <Input
             css={loading && disabledInput}
             disabled={loading}
-            name="phone"
-            ref={register({
+            {...register("phone", {
               required: t<string>("contact.fieldRequired"),
               minLength: {
                 value: 8,
@@ -169,7 +174,7 @@ const Contact: React.FC = () => {
             css={loading && disabledInput}
             disabled={loading}
             name="subject"
-            ref={register({
+            {...register("subject", {
               required: t<string>("contact.fieldRequired"),
             })}
           />
@@ -180,10 +185,10 @@ const Contact: React.FC = () => {
           <Textarea
             css={loading && disabledInput}
             disabled={loading}
-            ref={register({
+            name="message"
+            {...register("message", {
               required: t<string>("contact.fieldRequired"),
             })}
-            name="message"
           />
           <ErrorMsg>{errors.message && errors.message.message}</ErrorMsg>
         </Label>

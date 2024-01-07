@@ -116,7 +116,16 @@ const Group = styled.div`
 
 const Contact: React.FC = () => {
   const { t } = useTranslation("schools");
-  const { handleSubmit, register, errors } = useForm();
+  const { handleSubmit, register, formState: { errors } } = useForm<{
+    name: string;
+    school: string;
+    email: string;
+    phone: string;
+    jobTitle: string;
+    students: string;
+    who: string;
+    message: string;
+  }>();
   const [loading, setLoading] = useState(false);
   const [emailSend, setEmailSend] = useState<boolean>(false);
   const [preventSpam, setPreventSpam] = useState<boolean>(false);
@@ -150,9 +159,9 @@ const Contact: React.FC = () => {
             <Input
               css={loading && disabledInput}
               disabled={loading}
-              name="name"
               placeholder={t("contactSection.input.name.placeholder")}
-              ref={register({
+              name="name"
+              {...register("name", {
                 required: t<string>("contactSection.required"),
               })}
             />
@@ -164,7 +173,7 @@ const Contact: React.FC = () => {
               disabled={loading}
               placeholder={t("contactSection.input.school.placeholder")}
               name="school"
-              ref={register({
+              {...register("school", {
                 required: t<string>("contactSection.required"),
               })}
             />
@@ -177,7 +186,7 @@ const Contact: React.FC = () => {
             disabled={loading}
             placeholder={"Jobtitel*"}
             name="jobTitle"
-            ref={register({
+            {...register("jobTitle", {
               required: t<string>("contactSection.required"),
             })}
           />
@@ -190,7 +199,7 @@ const Contact: React.FC = () => {
             disabled={loading}
             placeholder={t("contactSection.input.email.placeholder")}
             name="email"
-            ref={register({
+            {...register("email", {
               required: t<string>("contactSection.required"),
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
@@ -207,7 +216,7 @@ const Contact: React.FC = () => {
             placeholder={t("contactSection.input.phone.placeholder")}
             name="phone"
             type="tel"
-            ref={register({
+            {...register("phone", {
               required: t<string>("contactSection.required"),
             })}
           />
@@ -220,7 +229,7 @@ const Contact: React.FC = () => {
             type="number"
             placeholder={"Antal elever"}
             name="students"
-            ref={register()}
+            {...register("students")}
           />
           <ErrorMsg>{errors.students && errors.students.message}</ErrorMsg>
         </Label>
@@ -233,9 +242,9 @@ const Contact: React.FC = () => {
                 disabled={loading}
                 type="radio"
                 checked
-                name="who"
                 value="Alle elever"
-                ref={register()}
+                name="who"
+                {...register("who")}
               />
               <span>Alle elever</span>
             </label>
@@ -246,7 +255,7 @@ const Contact: React.FC = () => {
                 type="radio"
                 name="who"
                 value="Udvalgte elever"
-                ref={register()}
+                {...register("who")}
               />
               <span>Udvalgte elever</span>
             </label>
@@ -259,8 +268,8 @@ const Contact: React.FC = () => {
             css={loading && disabledInput}
             disabled={loading}
             placeholder={t("contactSection.input.message.placeholder")}
-            ref={register()}
             name="message"
+            {...register("message")}
           />
           <ErrorMsg>{errors.message && errors.message.message}</ErrorMsg>
         </Label>

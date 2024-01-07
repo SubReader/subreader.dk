@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ButtonLink from "../../components/Button";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { withTranslation, WithTranslation } from "react-i18next";
 import { analytics } from "../../analytics";
 import { domainRef } from "../../i18n";
@@ -77,7 +77,7 @@ const Article = styled.article`
     margin: -3rem 0;
   }
 `;
-const Img = styled(Image)`
+const Img = styled(GatsbyImage)`
   max-width: 800px;
   flex-grow: 1;
   position: relative;
@@ -109,75 +109,52 @@ const InfoContainer = styled.article`
     }
   }
 `;
-const query = graphql`
-  query {
-    download: file(
-      name: { eq: "download" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    downloadMobile: file(
-      name: { eq: "downloadMobile" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    search: file(
-      name: { eq: "search" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    searchMobile: file(
-      name: { eq: "searchMobile" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    listen: file(
-      name: { eq: "listen" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    listenMobile: file(
-      name: { eq: "listenMobile" }
-      relativeDirectory: { eq: "howAppWorks" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+const query = graphql`{
+  download: file(name: {eq: "download"}, relativeDirectory: {eq: "howAppWorks"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
+  downloadMobile: file(
+    name: {eq: "downloadMobile"}
+    relativeDirectory: {eq: "howAppWorks"}
+  ) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  search: file(name: {eq: "search"}, relativeDirectory: {eq: "howAppWorks"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  searchMobile: file(
+    name: {eq: "searchMobile"}
+    relativeDirectory: {eq: "howAppWorks"}
+  ) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  listen: file(name: {eq: "listen"}, relativeDirectory: {eq: "howAppWorks"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  listenMobile: file(
+    name: {eq: "listenMobile"}
+    relativeDirectory: {eq: "howAppWorks"}
+  ) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+}`;
 
 const sourceArr = (desktop, mobile) => [
-  mobile.childImageSharp.fluid,
+  mobile.childImageSharp.gatsbyImageData,
   {
-    ...desktop.childImageSharp.fluid,
+    ...desktop.childImageSharp.gatsbyImageData,
     media: `(min-width: 500px)`,
   },
 ];
@@ -209,7 +186,7 @@ const HowWorks: React.FC<WithTranslation> = ({ t, i18n }) => {
         <Img
           loading={"eager"}
           draggable={false}
-          fluid={sourceArr(download, downloadMobile)}
+          image={download.childImageSharp.gatsbyImageData}
           alt={t("howAppWorks.info.alt")}
         />
         <InfoContainer>
@@ -229,7 +206,7 @@ const HowWorks: React.FC<WithTranslation> = ({ t, i18n }) => {
         <Img
           loading={"eager"}
           draggable={false}
-          fluid={sourceArr(search, searchMobile)}
+          image={search.childImageSharp.gatsbyImageData}
           alt={t("howAppWorks.info2.alt")}
         />
         <InfoContainer>
@@ -250,7 +227,7 @@ const HowWorks: React.FC<WithTranslation> = ({ t, i18n }) => {
           loading={"eager"}
           draggable={false}
           alt={t("howAppWorks.info3.alt")}
-          fluid={sourceArr(listen, listenMobile)}
+          image={listen.childImageSharp.gatsbyImageData}
         />
         <InfoContainer>
           <h3>{t("howAppWorks.info3.title")}</h3>

@@ -6,7 +6,7 @@ import React, {
   FormEvent,
 } from "react";
 import styled from "styled-components";
-import ReactCodeInput from "react-verification-code-input";
+
 import LoginButton from "../../components/LoginButton";
 import { navigate } from "gatsby";
 import EnterName from "../../sections/sign-in/EnterName";
@@ -45,6 +45,15 @@ const Form = styled.form`
     padding: 300px 2rem 250px;
   }
 `;
+
+const CodeInput = styled.input`
+
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+`
 
 type Redirect = string;
 type Method = string;
@@ -130,13 +139,23 @@ const Verification: React.FC<VerficationProps> = ({
     <Form onSubmit={handleLogin}>
       {children}
       <label aria-label="Aktiveringskode Inputfelt">
-        <ReactCodeInput
+        <CodeInput
+          disabled={loading}
+          ref={verificationInput}
+          onChange={e => setCode(e.target.value)}
+          className="verification-input"
+          type="text"
+          value={code}
+          maxLength={5}
+          />
+
+        {/* <ReactCodeInput
           disabled={loading}
           ref={verificationInput}
           onChange={setCode}
           className="verification-input"
           fields={5}
-        />
+        /> */}
       </label>
       <LoginButton errors={!isValid && { code }} disabled={loading}>
         {t("verification.button")}

@@ -56,7 +56,7 @@ const DownloadButton: React.FC<Props> = ({ apple }): ReactElement => {
       >
         <ImageContainer
           alt={t("downloadButtons.google.aria")}
-          src={images[t("downloadButtons.google.src")]}
+          src={images[t("downloadButtons.google.src")].default}
         />
       </Button>
     );
@@ -71,7 +71,7 @@ const DownloadButton: React.FC<Props> = ({ apple }): ReactElement => {
       <ImageContainer
         inline={{ width: "161px" }}
         alt={t("downloadButtons.apple.aria")}
-        src={images[t("downloadButtons.apple.src")]}
+        src={images[t("downloadButtons.apple.src")].default}
       />
     </Button>
   );

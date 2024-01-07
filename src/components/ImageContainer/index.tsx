@@ -16,7 +16,7 @@ interface Props {
   src: string;
   alt: string;
   style?: CSSProp;
-  children?: ReactChildren | ReactElement;
+  children?: ReactElement;
   inline?: object;
 }
 

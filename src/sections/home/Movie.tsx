@@ -2,11 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import ButtonLink from "../../components/Button";
 import ContentComponent from "../../components/Content";
-import BackgroundImage from "gatsby-background-image";
+// import BackgroundImage from "gatsby-background-image";
 import { useStaticQuery, graphql } from "gatsby";
 import { useTranslation } from "react-i18next";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-const Section = styled(BackgroundImage)`
+const Section = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -73,24 +74,20 @@ const Content = styled(ContentComponent)`
   }
 `;
 
-const query = graphql`
-  query {
-    image: file(name: { eq: "bg" }, relativeDirectory: { eq: "movie" }) {
-      childImageSharp {
-        fluid(maxWidth: 1959, maxHeight: 741, quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+const query = graphql`{
+  image: file(name: {eq: "bg"}, relativeDirectory: {eq: "movie"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
+}`;
 
 const Movie: React.FC = () => {
   const { t } = useTranslation();
   const { image } = useStaticQuery(query);
 
   return (
-    <Section critical Tag="section" {...image.childImageSharp}>
+    <Section>
       <Content>
         <Article>
           <h3>{t("movie.title")}</h3>

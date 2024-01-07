@@ -166,11 +166,6 @@ const Header: React.FC<HeaderProps> = ({ altHeader, menuButtonColor }) => {
               </NavigationLink>
             </NavigationItem>
           )}
-          <NavigationItem>
-            <NavigationLink onClick={() => setIsMenuOpen(false)} to="/blog">
-              {t("nav.blog")}
-            </NavigationLink>
-          </NavigationItem>
           {renderLogin && (
             <NavigationItem onClick={() => logoutHandler()}>
               <p>{t("nav.log-out")}</p>

@@ -4,7 +4,7 @@ import { navigate, Link } from "gatsby";
 import ContinueButton from "./ContinueButton";
 import EnterName from "./EnterName";
 import { Email, SMS, Facebook, Google, Apple } from "../../assets/icons";
-import { GoogleLogin } from "react-google-login";
+// import { GoogleLogin } from "react-google-login";
 import { trackAuthentication } from "../../analytics";
 import {
   authenticateWithFacebook,
@@ -168,7 +168,7 @@ const Continue: React.FC = () => {
         >
           {t("continue.facebook")}
         </ContinueButton>
-        <GoogleLogin
+        {/* <GoogleLogin
           clientId={process.env.GATSBY_GOOGLE_CLIENT_ID}
           onSuccess={googleHandler}
           onFailure={err => console.log(err)}
@@ -182,7 +182,7 @@ const Continue: React.FC = () => {
             </ContinueButton>
           )}
           cookiePolicy={"single_host_origin"}
-        />
+        /> */}
         {/* <ContinueButton
         style={appleStyle}
         Icon={Apple}

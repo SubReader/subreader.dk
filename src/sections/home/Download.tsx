@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import DownloadButton from "../../components/DownloadButton";
 import { withTranslation, WithTranslation } from "react-i18next";
 
@@ -42,7 +42,7 @@ const Article = styled.article`
   }
 `;
 
-const Img = styled(Image)`
+const Img = styled(GatsbyImage)`
   height: 100%;
   width: 100%;
 `;
@@ -89,39 +89,24 @@ const ButtonContainer = styled.div`
   }
 `;
 
-const query = graphql`
-  query {
-    mobileImage: file(
-      name: { eq: "phonesMobile" }
-      relativeDirectory: { eq: "download" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    desktopImage: file(
-      name: { eq: "phones" }
-      relativeDirectory: { eq: "download" }
-    ) {
-      childImageSharp {
-        fluid(quality: 85) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+const query = graphql`{
+  mobileImage: file(
+    name: {eq: "phonesMobile"}
+    relativeDirectory: {eq: "download"}
+  ) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
+  desktopImage: file(name: {eq: "phones"}, relativeDirectory: {eq: "download"}) {
+    childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+}`;
 const Download: React.FC<WithTranslation> = ({ t }) => {
   const data = useStaticQuery(query);
-  const sources = [
-    data.mobileImage.childImageSharp.fluid,
-    {
-      ...data.desktopImage.childImageSharp.fluid,
-      media: `(min-width: 960px)`,
-    },
-  ];
+
 
   return (
     <Section id="Download">
@@ -135,7 +120,7 @@ const Download: React.FC<WithTranslation> = ({ t }) => {
           </ButtonContainer>
         </article>
         <Container>
-          <Img loading={"eager"} fluid={sources} alt={t("download.alt")} />
+          <Img loading={"eager"} image={data.desktopImage.childImageSharp.gatsbyImageData} alt={t("download.alt")} />
         </Container>
       </Article>
     </Section>

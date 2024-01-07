@@ -11,27 +11,8 @@ module.exports = {
     supportedLanguages: ["no", "da", "sv", "se"],
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-styled-components`,
+    // Typescript support
     `gatsby-plugin-typescript`,
-    {
-      resolve: `gatsby-plugin-crazyegg`,
-      options: {
-        accountNumber: process.env.CRAZYEGG_ACCOUNT_NUMBER,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-facebook-sdk`,
-      options: {
-        appId: "407292099637758",
-        autoLogAppEvents: true,
-        xfbml: true,
-        version: "v7.0",
-      },
-    },
     {
       resolve: "gatsby-source-graphql",
       options: {
@@ -43,6 +24,11 @@ module.exports = {
         },
       },
     },
+
+    // Image support
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,6 +36,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
+    // Styling
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+
+    // SEO
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -62,6 +55,8 @@ module.exports = {
         icon: `src/assets/icons/favicon.svg`,
       },
     },
+
+    // Google fonts
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -74,47 +69,6 @@ module.exports = {
         rule: {
           include: /assets/,
         },
-      },
-    },
-    //Blog related plugins below
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blogs`,
-        path: `${__dirname}/src/blog`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.mdx`, `.md`],
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-              linkImagesToOriginal: false,
-              sizeByPixelDensity: true,
-              showCaptions: true,
-            },
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-              linkImagesToOriginal: false,
-              sizeByPixelDensity: true,
-              showCaptions: true,
-            },
-          },
-        ],
       },
     },
   ],

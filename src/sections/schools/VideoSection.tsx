@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { useTranslation } from "react-i18next";
 const Section = styled.section`
   padding: 150px 1rem;
@@ -85,48 +85,33 @@ const InfoHeading = styled.h3`
   }
 `;
 
-export const SERVICES_QUERY = graphql`
-  query {
-    cfu: file(relativePath: { eq: "partners/cfu-logo.png" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
-    fc: file(relativePath: { eq: "partners/film-centralen-logo.png" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
-    vitec: file(relativePath: { eq: "partners/vitec.jpg" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
-    urplay: file(relativePath: { eq: "partners/urplay.jpg" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    filmochskola: file(relativePath: { eq: "partners/film-och-skola.jpg" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+export const SERVICES_QUERY = graphql`{
+  cfu: file(relativePath: {eq: "partners/cfu-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
+  fc: file(relativePath: {eq: "partners/film-centralen-logo.png"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  vitec: file(relativePath: {eq: "partners/vitec.jpg"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  urplay: file(relativePath: {eq: "partners/urplay.jpg"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  filmochskola: file(relativePath: {eq: "partners/film-och-skola.jpg"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+}`;
 type Service = {
   logo: string;
   alt: string;
@@ -162,12 +147,7 @@ const VideoSection: React.FC = () => {
           {Array.isArray(localServices) &&
             localServices.map(({ logo, alt, maxWidth }: Service, i: number) => (
               <ImageContainer style={{ maxWidth }} key={i}>
-                <Image
-                  alt={alt}
-                  key={logo}
-                  loading={"eager"}
-                  {...services[logo].data}
-                />
+                <GatsbyImage alt={alt} key={logo} loading={"eager"} {...services[logo].data} />
               </ImageContainer>
             ))}
         </ImagesContainer>

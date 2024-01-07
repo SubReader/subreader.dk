@@ -7,7 +7,7 @@ import ProgressFlow from "../../../components/ProgressFlow";
 import DownloadyButton from "../../../components/DownloadButton";
 import { navigate } from "gatsby";
 import { getAccessToken } from "../../../authentication";
-import Lottie from "lottie-react-web";
+import Lottie from "lottie-react";
 import fireworksAnimation from "../../../assets/animations/fireworks.json";
 import { useTranslation } from "react-i18next";
 import { useQuery, gql } from "@apollo/client";

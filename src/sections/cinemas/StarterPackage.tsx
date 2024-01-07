@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import styled from "styled-components";
-import GatsbyImage from "gatsby-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
 import { FaDownload } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
@@ -89,38 +89,28 @@ const DownloadButton = styled.a`
 const DownloadIcon = styled(FaDownload)`
   margin-right: 10px;
 `;
-const IMAGEQUERY = graphql`
-  query {
-    operator: file(name: { eq: "operator" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    presse: file(name: { eq: "presse" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    some: file(name: { eq: "some" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    graphic: file(name: { eq: "graphic" }) {
-      data: childImageSharp {
-        fluid(quality: 85, maxWidth: 3000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
+const IMAGEQUERY = graphql`{
+  operator: file(name: {eq: "operator"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
     }
   }
-`;
+  presse: file(name: {eq: "presse"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  some: file(name: {eq: "some"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+  graphic: file(name: {eq: "graphic"}) {
+    data: childImageSharp {
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+    }
+  }
+}`;
 const StarterPackage = (): ReactElement => {
   const { t } = useTranslation("cinema");
   const { operator, presse, some, graphic } = useStaticQuery(IMAGEQUERY);

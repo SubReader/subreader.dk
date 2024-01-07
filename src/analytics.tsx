@@ -1,14 +1,14 @@
 import Analytics from "analytics";
 import segmentPlugin from "@analytics/segment";
-import googleAnalytics from "@analytics/google-analytics";
+// import googleAnalytics from "@analytics/google-analytics";
 import { Token } from "./authentication";
 
 export const analytics = Analytics({
   app: "website",
   plugins: [
-    googleAnalytics({
-      trackingId: process.env.GATSBY_GOOGLE_TRACKINGID,
-    }),
+    // googleAnalytics({
+    //   trackingId: process.env.GATSBY_GOOGLE_TRACKINGID,
+    // }),
     segmentPlugin({
       writeKey: process.env.GATSBY_ANALYTICS_WRITE_KEY,
     }),
