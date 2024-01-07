@@ -95,12 +95,12 @@ const query = graphql`{
     relativeDirectory: {eq: "download"}
   ) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   desktopImage: file(name: {eq: "phones"}, relativeDirectory: {eq: "download"}) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 85, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
 }`;

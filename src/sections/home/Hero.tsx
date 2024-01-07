@@ -21,23 +21,11 @@ const HeroContainer = styled.section`
   position: relative;
   background: #091222;
   padding: 0;
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 150px;
-    left: 0;
-    z-index: 1;
-    background: linear-gradient(180deg, rgba(9, 18, 34, 0) 0%, #091222 100%);
-    height: 60%;
-    width: 100%;
-  }
+
 
   @media (min-width: 960px) {
     height: 910px;
     padding-top: 100px;
-    &::after {
-      display: none;
-    }
   }
   .ReactModal__Overlay--after-open {
     opacity: 1;
@@ -160,12 +148,12 @@ const HeroImageContainer = styled.aside`
 
 export const DesktopImageFragment = graphql`fragment DesktopImageSharp on File {
   childImageSharp {
-    gatsbyImageData(quality: 75, layout: FULL_WIDTH)
+    gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
   }
 }`;
 export const LaptopImageFragment = graphql`fragment LaptopImageSharp on File {
   childImageSharp {
-    gatsbyImageData(quality: 10, width: 750, layout: CONSTRAINED)
+    gatsbyImageData(quality: 100, width: 750, layout: CONSTRAINED)
   }
 }`;
 const query = graphql`{
@@ -221,8 +209,8 @@ const Hero: React.FC<WithTranslation> = ({ t, i18n }) => {
       <HeroContent>
         <HeroImageContainer>
           <HeroImage
-            // loading={"eager"}
-            image={imagesData.laptop_da.childImageSharp.gatsbyImageData}
+            loading="eager"
+            image={imagesData.desktop_da.childImageSharp.gatsbyImageData}
             alt={t("hero.alt")}
           />
         </HeroImageContainer>

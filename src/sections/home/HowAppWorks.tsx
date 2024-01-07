@@ -112,7 +112,7 @@ const InfoContainer = styled.article`
 const query = graphql`{
   download: file(name: {eq: "download"}, relativeDirectory: {eq: "howAppWorks"}) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   downloadMobile: file(
@@ -120,12 +120,12 @@ const query = graphql`{
     relativeDirectory: {eq: "howAppWorks"}
   ) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   search: file(name: {eq: "search"}, relativeDirectory: {eq: "howAppWorks"}) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   searchMobile: file(
@@ -133,12 +133,12 @@ const query = graphql`{
     relativeDirectory: {eq: "howAppWorks"}
   ) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   listen: file(name: {eq: "listen"}, relativeDirectory: {eq: "howAppWorks"}) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
   listenMobile: file(
@@ -146,7 +146,7 @@ const query = graphql`{
     relativeDirectory: {eq: "howAppWorks"}
   ) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: NONE)
     }
   }
 }`;

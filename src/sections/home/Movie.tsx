@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import ButtonLink from "../../components/Button";
-import ContentComponent from "../../components/Content";
-// import BackgroundImage from "gatsby-background-image";
+import Content from "../../components/Content";
 import { useStaticQuery, graphql } from "gatsby";
 import { useTranslation } from "react-i18next";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 const Section = styled.div`
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -54,30 +54,19 @@ const Article = styled.article`
   }
 `;
 
-const Content = styled(ContentComponent)`
+const BackgroundImage = styled(GatsbyImage)`
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(180deg, rgba(9, 18, 34, 0) 0%, #091222 100%);
-    height: 70%;
-    width: 100%;
-  }
-  @media (min-width: 960px) {
-    &::after {
-      height: 100%;
-      width: 60%;
-      background: linear-gradient(-90deg, rgba(9, 18, 34, 0) 0%, #091222 100%);
-    }
-  }
+  height: 100%;
 `;
+
 
 const query = graphql`{
   image: file(name: {eq: "bg"}, relativeDirectory: {eq: "movie"}) {
     childImageSharp {
-      gatsbyImageData(quality: 85, layout: FULL_WIDTH)
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH)
     }
   }
 }`;
@@ -88,6 +77,7 @@ const Movie: React.FC = () => {
 
   return (
     <Section>
+      <BackgroundImage alt="" image={image.childImageSharp.gatsbyImageData} />
       <Content>
         <Article>
           <h3>{t("movie.title")}</h3>

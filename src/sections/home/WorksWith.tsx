@@ -51,27 +51,27 @@ const ServicesContainer = styled.ul`
 const IMAGESQUERY = graphql`{
   netflix: file(relativePath: {eq: "partners/netflix-logo.png"}) {
     data: childImageSharp {
-      gatsbyImageData(width: 128, layout: FIXED)
+      gatsbyImageData(width: 128, layout: FIXED, placeholder: NONE)
     }
   }
   viaplay: file(relativePath: {eq: "partners/viaplay-logo.png"}) {
     data: childImageSharp {
-      gatsbyImageData(width: 128, layout: FIXED)
+      gatsbyImageData(width: 128, layout: FIXED, placeholder: NONE)
     }
   }
   disney: file(relativePath: {eq: "partners/disney-logo.png"}) {
     data: childImageSharp {
-      gatsbyImageData(width: 128, layout: FIXED)
+      gatsbyImageData(width: 128, layout: FIXED, placeholder: NONE)
     }
   }
   drtv: file(relativePath: {eq: "partners/drtv-logo.png"}) {
     data: childImageSharp {
-      gatsbyImageData(width: 128, layout: FIXED)
+      gatsbyImageData(width: 128, layout: FIXED, placeholder: NONE)
     }
   }
   nrktv: file(relativePath: {eq: "partners/nrktv-logo.png"}) {
     data: childImageSharp {
-      gatsbyImageData(width: 128, layout: FIXED)
+      gatsbyImageData(width: 128, layout: FIXED, placeholder: NONE)
     }
   }
 }`;
