@@ -134,7 +134,7 @@ const Contact: React.FC = () => {
     try {
       await emailjs.send(
         process.env.GATSBY_EMAIL_SERVICEID,
-        "template_uhkhids",
+        process.env.GATSBY_EMAIL_TEMPLATE_ID,
         values,
         process.env.GATSBY_EMAIL_USER
       );
