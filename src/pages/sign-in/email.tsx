@@ -69,7 +69,12 @@ const EnterEmail: React.FC = (): ReactElement => {
   const redirect = windowExist && window.history?.state?.redirect;
   const progressFlow = windowExist && window.history?.state?.progressFlow;
 
-  const { handleSubmit, register, errors, trigger } = useForm<FormData>({
+  const {
+    handleSubmit,
+    register,
+    formState: { errors },
+    trigger,
+  } = useForm<FormData>({
     mode: "onChange",
   });
   const onSubmit = useCallback(async (values: FormData): Promise<void> => {
@@ -102,17 +107,13 @@ const EnterEmail: React.FC = (): ReactElement => {
                   disabled={loading}
                   placeholder={t("email.placeholder")}
                   name="email"
-                  ref={e => {
-                    register(e, {
-                      required: "Required",
-                      pattern: {
-                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                        message: "invalid email address",
-                      },
-                    });
-
-                    if (e && e.value == "") e.focus();
-                  }}
+                  {...register("email", {
+                    required: "Required",
+                    pattern: {
+                      value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                      message: "invalid email address",
+                    },
+                  })}
                 />
                 <LoginButton errors={errors} disabled={loading}>
                   {t("email.button")}

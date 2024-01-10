@@ -47,13 +47,12 @@ const Form = styled.form`
 `;
 
 const CodeInput = styled.input`
-
   font-size: 3rem;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 6px;
   border: 2px solid rgba(255, 255, 255, 0.5);
-`
+`;
 
 type Redirect = string;
 type Method = string;
@@ -142,12 +141,12 @@ const Verification: React.FC<VerficationProps> = ({
         <CodeInput
           disabled={loading}
           ref={verificationInput}
-          onChange={e => setCode(e.target.value)}
+          onChange={(e) => setCode(e.target.value)}
           className="verification-input"
           type="text"
           value={code}
           maxLength={5}
-          />
+        />
 
         {/* <ReactCodeInput
           disabled={loading}
