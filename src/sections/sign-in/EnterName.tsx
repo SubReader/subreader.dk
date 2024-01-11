@@ -34,10 +34,15 @@ const Label = styled.label`
 const EnterNavn = ({ props }) => {
   const { t } = useTranslation("sign-in");
   const [loading, setLoading] = useState(false);
-  const { handleSubmit, register, errors, trigger } = useForm({
+  const {
+    handleSubmit,
+    register,
+    formState: { errors },
+    trigger,
+  } = useForm({
     mode: "onChange",
   });
-  const onSubmit = useCallback(async values => {
+  const onSubmit = useCallback(async (values) => {
     const viewer = {
       name: values.name,
     };
@@ -76,12 +81,9 @@ const EnterNavn = ({ props }) => {
             disabled={loading}
             placeholder="John Doe"
             name="name"
-            ref={e => {
-              register(e, {
-                required: "Required",
-              });
-              if (e && e.value == "") e.focus();
-            }}
+            {...register("name", {
+              required: "Required",
+            })}
           />
           <LoginButton errors={errors} disabled={loading}>
             {t("name.button")}
