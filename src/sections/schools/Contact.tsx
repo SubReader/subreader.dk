@@ -153,6 +153,8 @@ const Contact: React.FC = () => {
   return (
     <Section>
       <Heading>{t("contactSection.heading")}</Heading>
+      {/* Commenting out the form */}
+      {/* 
       <Form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <Label aria-label={t("contactSection.input.name.aria-label")}>
@@ -281,6 +283,7 @@ const Contact: React.FC = () => {
           {t("contactSection.send")}
         </SubmitButton>
       </Form>
+      */}
     </Section>
   );
 };
