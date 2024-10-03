@@ -153,7 +153,6 @@ const Contact: React.FC = () => {
   return (
     <Section>
       <Heading>{t("contactSection.heading")}</Heading>
-      <p>Please contact us on alexander@subreader.dk or +45 60 14 35 51</p> {/* Added text here */}
       <Form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <Label aria-label={t("contactSection.input.name.aria-label")}>
