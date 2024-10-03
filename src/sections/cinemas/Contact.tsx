@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
       try {
         await emailjs.send(
           process.env.GATSBY_EMAIL_SERVICEID,
-          "template_dt5kaxe",
+          "template_trrw2nh",
           values,
           process.env.GATSBY_EMAIL_USER
         );
