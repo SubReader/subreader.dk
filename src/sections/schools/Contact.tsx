@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
