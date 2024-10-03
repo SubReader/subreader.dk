@@ -105,6 +105,9 @@ const Contact: React.FC = () => {
                     process.env.GATSBY_EMAIL_SERVICEID,
                     "template_trrw2nh",
                     values,
+                    {
+                        publicKey: process.env.GATSBY_EMAIL_PUBLIC_KEY,
+                    }
                     // process.env.GATSBY_EMAIL_USER
                 );
                 localStorage.setItem(

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
@@ -136,6 +136,9 @@ const Contact: React.FC = () => {
                 process.env.GATSBY_EMAIL_SERVICEID,
                 process.env.GATSBY_EMAIL_TEMPLATE_ID,
                 values,
+                {
+                    publicKey: process.env.GATSBY_EMAIL_PUBLIC_KEY,
+                }
             );
             localStorage.setItem(
                 "preventSpam",
