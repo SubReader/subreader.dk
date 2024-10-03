@@ -115,177 +115,174 @@ const Group = styled.div`
 `
 
 const Contact: React.FC = () => {
-  const { t } = useTranslation("schools");
-  const { handleSubmit, register, formState: { errors } } = useForm<{
-    name: string;
-    school: string;
-    email: string;
-    phone: string;
-    jobTitle: string;
-    students: string;
-    who: string;
-    message: string;
-  }>();
-  const [loading, setLoading] = useState(false);
-  const [emailSend, setEmailSend] = useState<boolean>(false);
-  const [preventSpam, setPreventSpam] = useState<boolean>(false);
-  const onSubmit = async values => {
-    setLoading(true);
-    try {
-      await emailjs.send(
-        process.env.GATSBY_EMAIL_SERVICEID,
-        process.env.GATSBY_EMAIL_TEMPLATE_ID,
-        values,
-        process.env.GATSBY_EMAIL_USER
-      );
-      localStorage.setItem(
-        "preventSpam",
-        JSON.stringify(Date.now() + 600000)
-      );
-      setEmailSend(true);
-    } catch (error) {
-      console.log(error);
-    }
+    const { t } = useTranslation("schools");
+    const { handleSubmit, register, formState: { errors } } = useForm<{
+        name: string;
+        school: string;
+        email: string;
+        phone: string;
+        jobTitle: string;
+        students: string;
+        who: string;
+        message: string;
+    }>();
+    const [loading, setLoading] = useState(false);
+    const [emailSend, setEmailSend] = useState<boolean>(false);
+    const [preventSpam, setPreventSpam] = useState<boolean>(false);
+    const onSubmit = async values => {
+        setLoading(true);
+        try {
+            await emailjs.send(
+                process.env.GATSBY_EMAIL_SERVICEID,
+                process.env.GATSBY_EMAIL_TEMPLATE_ID,
+                values,
+                process.env.GATSBY_EMAIL_USER
+            );
+            localStorage.setItem(
+                "preventSpam",
+                JSON.stringify(Date.now() + 600000)
+            );
+            setEmailSend(true);
+        } catch (error) {
+            console.log(error);
+        }
 
-    setLoading(false);
-  };
+        setLoading(false);
+    };
 
-  return (
-    <Section>
-      <Heading>{t("contactSection.heading")}</Heading>
-      {/* Commenting out the form */}
-      {/* 
-      <Form onSubmit={handleSubmit(onSubmit)}>
-        <div>
-          <Label aria-label={t("contactSection.input.name.aria-label")}>
-            <Input
-              css={loading && disabledInput}
-              disabled={loading}
-              placeholder={t("contactSection.input.name.placeholder")}
-              name="name"
-              {...register("name", {
-                required: t<string>("contactSection.required"),
-              })}
-            />
-            <ErrorMsg>{errors.name && errors.name.message}</ErrorMsg>
-          </Label>
-          <Label aria-label={t("contactSection.input.school.aria-label")}>
-            <Input
-              css={loading && disabledInput}
-              disabled={loading}
-              placeholder={t("contactSection.input.school.placeholder")}
-              name="school"
-              {...register("school", {
-                required: t<string>("contactSection.required"),
-              })}
-            />
-            <ErrorMsg>{errors.school && errors.school.message}</ErrorMsg>
-          </Label>
-        </div>
-        <Label>
-          <Input
-            css={loading && disabledInput}
-            disabled={loading}
-            placeholder={"Jobtitel*"}
-            name="jobTitle"
-            {...register("jobTitle", {
-              required: t<string>("contactSection.required"),
-            })}
-          />
-          <ErrorMsg>{errors.jobTitle && errors.jobTitle.message}</ErrorMsg>
-        </Label>
+    return (
+        <Section>
+            <Heading>{t("contactSection.heading")}</Heading>
+            <Form onSubmit={handleSubmit(onSubmit)}>
+                <div>
+                    <Label aria-label={t("contactSection.input.name.aria-label")}>
+                        <Input
+                            css={loading && disabledInput}
+                            disabled={loading}
+                            placeholder={t("contactSection.input.name.placeholder")}
+                            name="name"
+                            {...register("name", {
+                                required: t<string>("contactSection.required"),
+                            })}
+                        />
+                        <ErrorMsg>{errors.name && errors.name.message}</ErrorMsg>
+                    </Label>
+                    <Label aria-label={t("contactSection.input.school.aria-label")}>
+                        <Input
+                            css={loading && disabledInput}
+                            disabled={loading}
+                            placeholder={t("contactSection.input.school.placeholder")}
+                            name="school"
+                            {...register("school", {
+                                required: t<string>("contactSection.required"),
+                            })}
+                        />
+                        <ErrorMsg>{errors.school && errors.school.message}</ErrorMsg>
+                    </Label>
+                </div>
+                <Label>
+                    <Input
+                        css={loading && disabledInput}
+                        disabled={loading}
+                        placeholder={"Jobtitel*"}
+                        name="jobTitle"
+                        {...register("jobTitle", {
+                            required: t<string>("contactSection.required"),
+                        })}
+                    />
+                    <ErrorMsg>{errors.jobTitle && errors.jobTitle.message}</ErrorMsg>
+                </Label>
 
-        <Label aria-label={t("contactSection.input.email.aria-label")}>
-          <Input
-            css={loading && disabledInput}
-            disabled={loading}
-            placeholder={t("contactSection.input.email.placeholder")}
-            name="email"
-            {...register("email", {
-              required: t<string>("contactSection.required"),
-              pattern: {
-                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                message: t<string>("contactSection.input.email.invalid"),
-              },
-            })}
-          />
-          <ErrorMsg>{errors.email && errors.email.message}</ErrorMsg>
-        </Label>
-        <Label aria-label={t("contactSection.input.phone.aria-label")}>
-          <Input
-            css={loading && disabledInput}
-            disabled={loading}
-            placeholder={t("contactSection.input.phone.placeholder")}
-            name="phone"
-            type="tel"
-            {...register("phone", {
-              required: t<string>("contactSection.required"),
-            })}
-          />
-          <ErrorMsg>{errors.phone && errors.phone.message}</ErrorMsg>
-        </Label>
-        <Label>
-          <Input
-            css={loading && disabledInput}
-            disabled={loading}
-            type="number"
-            placeholder={"Antal elever"}
-            name="students"
-            {...register("students")}
-          />
-          <ErrorMsg>{errors.students && errors.students.message}</ErrorMsg>
-        </Label>
-        <Group>
-          <p>Ønsker tilbud til:</p>
-          <RadioGroup>
-            <label>
-              <input
-                css={loading && disabledInput}
-                disabled={loading}
-                type="radio"
-                checked
-                value="Alle elever"
-                name="who"
-                {...register("who")}
-              />
-              <span>Alle elever</span>
-            </label>
-            <label>
-              <input
-                css={loading && disabledInput}
-                disabled={loading}
-                type="radio"
-                name="who"
-                value="Udvalgte elever"
-                {...register("who")}
-              />
-              <span>Udvalgte elever</span>
-            </label>
-            <ErrorMsg>{errors.who && errors.who.message}</ErrorMsg>
-          </RadioGroup>
-        </Group>
+                <Label aria-label={t("contactSection.input.email.aria-label")}>
+                    <Input
+                        css={loading && disabledInput}
+                        disabled={loading}
+                        placeholder={t("contactSection.input.email.placeholder")}
+                        name="email"
+                        {...register("email", {
+                            required: t<string>("contactSection.required"),
+                            pattern: {
+                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                message: t<string>("contactSection.input.email.invalid"),
+                            },
+                        })}
+                    />
+                    <ErrorMsg>{errors.email && errors.email.message}</ErrorMsg>
+                </Label>
+                <Label aria-label={t("contactSection.input.phone.aria-label")}>
+                    <Input
+                        css={loading && disabledInput}
+                        disabled={loading}
+                        placeholder={t("contactSection.input.phone.placeholder")}
+                        name="phone"
+                        type="tel"
+                        {...register("phone", {
+                            required: t<string>("contactSection.required"),
+                        })}
+                    />
+                    <ErrorMsg>{errors.phone && errors.phone.message}</ErrorMsg>
+                </Label>
+                <Label>
+                    <Input
+                        css={loading && disabledInput}
+                        disabled={loading}
+                        type="number"
+                        placeholder={"Antal elever"}
+                        name="students"
+                        {...register("students")}
+                    />
+                    <ErrorMsg>{errors.students && errors.students.message}</ErrorMsg>
+                </Label>
+                <Group>
+                    <p>Ønsker tilbud til:</p>
+                    <RadioGroup>
+                        <label>
+                            <input
+                                css={loading && disabledInput}
+                                disabled={loading}
+                                type="radio"
+                                checked
+                                value="Alle elever"
+                                name="who"
+                                {...register("who")}
+                            />
+                            <span>Alle elever</span>
+                        </label>
+                        <label>
+                            <input
+                                css={loading && disabledInput}
+                                disabled={loading}
+                                type="radio"
+                                name="who"
+                                value="Udvalgte elever"
+                                {...register("who")}
+                            />
+                            <span>Udvalgte elever</span>
+                        </label>
+                        <ErrorMsg>{errors.who && errors.who.message}</ErrorMsg>
+                    </RadioGroup>
+                </Group>
 
-        <Label aria-label={t("contactSection.input.message.aria-label")}>
-          <Textarea
-            css={loading && disabledInput}
-            disabled={loading}
-            placeholder={t("contactSection.input.message.placeholder")}
-            name="message"
-            {...register("message")}
-          />
-          <ErrorMsg>{errors.message && errors.message.message}</ErrorMsg>
-        </Label>
-        {!preventSpam && emailSend && (
-          <SuccessMsg>{t("contactSection.success")}.</SuccessMsg>
-        )}
-        {preventSpam && <ErrorMsg>{t("contactSection.spam")}</ErrorMsg>}
-        <SubmitButton css={loading && disabledButton}>
-          {t("contactSection.send")}
-        </SubmitButton>
-      </Form>
-      */}
-    </Section>
-  );
+                <Label aria-label={t("contactSection.input.message.aria-label")}>
+                    <Textarea
+                        css={loading && disabledInput}
+                        disabled={loading}
+                        placeholder={t("contactSection.input.message.placeholder")}
+                        name="message"
+                        {...register("message")}
+                    />
+                    <ErrorMsg>{errors.message && errors.message.message}</ErrorMsg>
+                </Label>
+                {!preventSpam && emailSend && (
+                    <SuccessMsg>{t("contactSection.success")}.</SuccessMsg>
+                )}
+                {preventSpam && <ErrorMsg>{t("contactSection.spam")}</ErrorMsg>}
+                <SubmitButton css={loading && disabledButton}>
+                    {t("contactSection.send")}
+                </SubmitButton>
+            </Form>
+        </Section>
+    );
 };
 
 export default Contact;
