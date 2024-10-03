@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
 import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
 const Section = styled.section`
   padding: 0px 1rem 200px;
@@ -136,7 +136,6 @@ const Contact: React.FC = () => {
                 process.env.GATSBY_EMAIL_SERVICEID,
                 process.env.GATSBY_EMAIL_TEMPLATE_ID,
                 values,
-                process.env.GATSBY_EMAIL_USER
             );
             localStorage.setItem(
                 "preventSpam",

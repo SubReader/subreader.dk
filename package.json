@@ -7,8 +7,8 @@
   "dependencies": {
     "@analytics/segment": "^2.1.0",
     "@apollo/client": "^3.3.0",
+    "@emailjs/browser": "^4.4.1",
     "analytics": "^0.8.9",
-    "emailjs-com": "^2.6.4",
     "gatsby": "^5.13.1",
     "gatsby-plugin-facebook-sdk": "^1.0.6",
     "gatsby-plugin-google-fonts": "^1.0.1",
