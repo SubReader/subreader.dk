@@ -4,11 +4,11 @@
     "description": "Få upplästa undertexter på utländska filmer med SubReader på alla dina streamingtjänester idag!"
   },
   "address": {
-    "street": "Sankt Gertruds Stræde 5,5",
-    "city": "1120 København K"
+    "street": "Mellemforts alle 6, 3th",
+    "city": "2300, København S"
   },
-  "phone": { "content": "+46 793 36 91 97", "value": "+460793369197" },
-  "cvr": "CVR: 37258024",
+  "phone": { "content": "+45 60 14 35 51", "value": "+45 60 14 35 51" },
+  "cvr": "CVR: 42925667",
   "email": "kontakt@subreader.se",
   "socials": {
     "youtube": "https://www.youtube.com/channel/UCmIdYmdNJY5zFSLWFtSHwxQ",
