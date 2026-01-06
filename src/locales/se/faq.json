@@ -49,7 +49,7 @@
       "title": "Hur kan min skola få SubReader?",
       "p1": "Om du vill veta mer om SubReader School eller få installerat SubReader på din skola kan du kontakta våra kollegor på Vitec MV, som är ansvariga för SubReader School. De kan informera om pris och installation. Kontakta Nicolina på Vitec här: <0>{{email}}</0> eller på telefon <2>{{phoneLink}}</2>.",
       "p2": "Önskar du som förälder att ditt barns skola ska erbjuda SubReader School och uppläsning av undertexter i undervisningen så kan du be en lärare eller skolföreståndare att kontakta oss. Vi kan berätta mer om hur skolan kan få tillgång till SubReader: kontakt@subreader.se.",
-      "email": "nicolina.lottsfeldt@vitecsoftware.com",
+      "email": "christian@subreader.dk",
       "phone": {
         "content": "040-939150",
         "link": "040-939150"
@@ -71,7 +71,7 @@
     "q5": {
       "title": "Kräver det extra utrustning för att använda SubReader i skolan?",
       "p1": "Nej, det är enkelt att integrera SubReader i skolan. Det enda som behövs för att komma igång är ett Google Chrome tillägg som kan laddas ner efter att skolan har köpt en licens. Om du behöver hjälp med att installera SubReader School kan du kontakta våra samarbetspartners på Vitec-MV: <0>{{email}}</0> eller telefon <2>{{phoneLink}}</2>.",
-      "email": "nicolina.lottsfeldt@vitecsoftware.com",
+      "email": "christian@subreader.dk",
       "phone": {
         "content": "040-939150",
         "link": "040-939150"
